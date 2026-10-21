@@ -21,12 +21,12 @@
     "name" : "Basic"
   } ],
   "paths" : {
-    "/account-info/2027-03-beta/api-usage/daily/private-apps" : {
+    "/account-info/2027-03-beta/api-usage/daily/privately-distributed" : {
       "get" : {
         "tags" : [ "Basic" ],
-        "summary" : "Retrieve API Usage",
-        "description" : "Retrieve the daily API usage for private apps in the account. This endpoint provides insights into the API consumption patterns, helping users monitor and manage their API usage effectively.",
-        "operationId" : "get-/account-info/2027-03-beta/api-usage/daily/private-apps_/account-info/2027-03-beta/api-usage/daily/private-apps",
+        "summary" : "Retrieve API usage",
+        "description" : "Retrieve the daily API usage for privately distributed apps in the account. This endpoint provides information about the current API usage, usage limits, and usage breakdown by app type. It is useful for monitoring and managing API consumption within your HubSpot account.",
+        "operationId" : "get-/account-info/2027-03-beta/api-usage/daily/privately-distributed",
         "parameters" : [ ],
         "responses" : {
           "200" : {
@@ -34,7 +34,7 @@
             "content" : {
               "application/json" : {
                 "schema" : {
-                  "$ref" : "#/components/schemas/CollectionResponseApiUsageMarch2027NoPaging"
+                  "$ref" : "#/components/schemas/ApiUsageMarch2027"
                 },
                 "example" : null
               }
@@ -45,7 +45,10 @@
             "$ref" : "#/components/responses/Error"
           }
         },
-        "security" : [ ]
+        "security" : [ ],
+        "x-hubspot-user-level-auth" : {
+          "internalOnly" : false
+        }
       }
     },
     "/account-info/2027-03-beta/details" : {
@@ -82,41 +85,30 @@
   "components" : {
     "schemas" : {
       "ApiUsageMarch2027" : {
-        "required" : [ "collectedAt", "currentUsage", "fetchStatus", "name", "usageByAppType", "usageLimit" ],
+        "required" : [ "collectedAt", "currentUsage", "usageByAppType", "usageLimit" ],
         "type" : "object",
         "properties" : {
           "collectedAt" : {
             "type" : "string",
-            "description" : "The date and time when the usage data was collected, in ISO 8601 format.",
+            "description" : "The date and time when the API usage data was collected, in ISO 8601 format.",
             "format" : "date-time",
             "example" : null
           },
           "currentUsage" : {
             "type" : "integer",
-            "description" : "An integer indicating the current usage count of the API.",
+            "description" : "An integer indicating the current amount of API usage.",
             "format" : "int32",
-            "example" : null
-          },
-          "fetchStatus" : {
-            "type" : "string",
-            "description" : "The status of the data fetch operation. Valid values include 'SUCCESS', 'TIMEOUT', 'FAILURE', 'CACHED', and 'NOTFOUND'.",
-            "example" : null,
-            "enum" : [ "CACHED", "FAILURE", "NOTFOUND", "SUCCESS", "TIMEOUT" ]
-          },
-          "name" : {
-            "type" : "string",
-            "description" : "The name of the API or service being tracked.",
             "example" : null
           },
           "resetsAt" : {
             "type" : "string",
-            "description" : "The date and time when the usage limit will reset, in ISO 8601 format.",
+            "description" : "The date and time when the API usage limits will reset, in ISO 8601 format.",
             "format" : "date-time",
             "example" : null
           },
           "usageByAppType" : {
             "type" : "array",
-            "description" : "An array of objects detailing usage statistics categorized by application type.",
+            "description" : "An array of objects detailing API usage by application type, each object conforming to the AppTypeUsage schema.",
             "example" : null,
             "items" : {
               "$ref" : "#/components/schemas/AppTypeUsage"
@@ -124,7 +116,7 @@
           },
           "usageLimit" : {
             "type" : "integer",
-            "description" : "An integer representing the maximum allowed usage for the API.",
+            "description" : "An integer representing the maximum allowed API usage.",
             "format" : "int32",
             "example" : null
           }
@@ -137,12 +129,13 @@
         "properties" : {
           "appType" : {
             "type" : "string",
-            "description" : "The type of app being reported on. Valid values include 'LEGACY_PRIVATE_APP', 'DEVELOPER_PLATFORM_APP', and 'SERVICE_KEY'.",
+            "description" : "A string indicating the type of application. Valid values include 'LEGACY_PRIVATE_APP', 'PLATFORM_PRIVATE_APP', and 'SERVICE_KEY'.",
             "example" : null,
-            "enum" : [ "DEVELOPER_PLATFORM_APP", "LEGACY_PRIVATE_APP", "SERVICE_KEY" ]
+            "enum" : [ "LEGACY_PRIVATE_APP", "PLATFORM_PRIVATE_APP", "SERVICE_KEY" ]
           },
           "apps" : {
             "type" : "array",
+            "description" : "An array of AppUsage objects, each detailing the usage statistics of individual applications within the specified app type.",
             "example" : null,
             "items" : {
               "$ref" : "#/components/schemas/AppUsage"
@@ -150,7 +143,7 @@
           },
           "currentUsage" : {
             "type" : "integer",
-            "description" : "An integer representing the current usage count of the specified app type.",
+            "description" : "An integer representing the current usage count of the application type.",
             "format" : "int32",
             "example" : null
           }
@@ -163,32 +156,20 @@
         "properties" : {
           "appId" : {
             "type" : "integer",
+            "description" : "The unique identifier for the app, represented as an integer.",
             "format" : "int32",
             "example" : null
           },
           "currentUsage" : {
             "type" : "integer",
+            "description" : "The current usage of the app, represented as an integer.",
             "format" : "int32",
             "example" : null
           },
           "name" : {
             "type" : "string",
+            "description" : "The name of the app, represented as a string.",
             "example" : null
-          }
-        },
-        "example" : null
-      },
-      "CollectionResponseApiUsageMarch2027NoPaging" : {
-        "required" : [ "results" ],
-        "type" : "object",
-        "properties" : {
-          "results" : {
-            "type" : "array",
-            "description" : "An array of API usage records, each detailing the usage statistics for a specific API. Each record is an instance of the ApiUsageMarch2027 schema.",
-            "example" : null,
-            "items" : {
-              "$ref" : "#/components/schemas/ApiUsageMarch2027"
-            }
           }
         },
         "example" : null
@@ -199,7 +180,7 @@
         "properties" : {
           "category" : {
             "type" : "string",
-            "description" : "The error category, represented as a string.",
+            "description" : "The error category.",
             "example" : null
           },
           "context" : {
@@ -212,18 +193,18 @@
                 "example" : null
               }
             },
-            "description" : "An object containing context about the error condition. It maps property names to arrays of strings.",
+            "description" : "Context about the error condition, represented as an object with additional properties that are arrays of strings.",
             "example" : "{invalidPropertyName=[propertyValue], missingScopes=[scope1, scope2]}"
           },
           "correlationId" : {
             "type" : "string",
-            "description" : "A unique identifier for the request, represented as a UUID. Include this value with any error reports or support tickets.",
+            "description" : "A unique identifier for the request. Include this value with any error reports or support tickets. It is a UUID format.",
             "format" : "uuid",
             "example" : "aeb5f871-7f07-4993-9211-075dc63e7cbf"
           },
           "errors" : {
             "type" : "array",
-            "description" : "An array providing further information about the error, with each item being an ErrorDetail object.",
+            "description" : "Further information about the error, represented as an array of ErrorDetail objects.",
             "example" : null,
             "items" : {
               "$ref" : "#/components/schemas/ErrorDetail"
@@ -235,17 +216,17 @@
               "type" : "string",
               "example" : null
             },
-            "description" : "A map of link names to associated URIs containing documentation about the error or recommended remediation steps. Each value is a string.",
+            "description" : "A map of link names to associated URIs containing documentation about the error or recommended remediation steps.",
             "example" : null
           },
           "message" : {
             "type" : "string",
-            "description" : "A human readable message describing the error along with remediation steps where appropriate. It is a string.",
+            "description" : "A human readable message describing the error along with remediation steps where appropriate.",
             "example" : "An error occurred"
           },
           "subCategory" : {
             "type" : "string",
-            "description" : "A specific category that contains more specific detail about the error, represented as a string.",
+            "description" : "A specific category that contains more specific detail about the error.",
             "example" : null
           }
         },
@@ -265,7 +246,7 @@
         "properties" : {
           "code" : {
             "type" : "string",
-            "description" : "The status code associated with the error detail. It is a string.",
+            "description" : "The status code associated with the error detail.",
             "example" : null
           },
           "context" : {
@@ -278,22 +259,22 @@
                 "example" : null
               }
             },
-            "description" : "Context about the error condition, represented as an object where each key is a string and each value is an array of strings.",
+            "description" : "Context about the error condition, represented as an object with additional properties.",
             "example" : "{missingScopes=[scope1, scope2]}"
           },
           "in" : {
             "type" : "string",
-            "description" : "The name of the field or parameter in which the error was found. It is a string.",
+            "description" : "The name of the field or parameter in which the error was found.",
             "example" : null
           },
           "message" : {
             "type" : "string",
-            "description" : "A human readable message describing the error along with remediation steps where appropriate. It is a string.",
+            "description" : "A human readable message describing the error along with remediation steps where appropriate.",
             "example" : null
           },
           "subCategory" : {
             "type" : "string",
-            "description" : "A specific category that contains more specific detail about the error. It is a string.",
+            "description" : "A specific category that contains more specific detail about the error.",
             "example" : null
           }
         },
@@ -321,12 +302,12 @@
           },
           "companyCurrency" : {
             "type" : "string",
-            "description" : "The primary currency used by the company, represented as a string.",
+            "description" : "The primary currency used by the company associated with the portal, represented as a string.",
             "example" : null
           },
           "createdAt" : {
             "type" : "integer",
-            "description" : "The timestamp when the portal was created, represented as a Unix timestamp in milliseconds.",
+            "description" : "The creation date of the portal, represented as a Unix timestamp in milliseconds.",
             "format" : "int64",
             "example" : null
           },
@@ -353,17 +334,17 @@
           },
           "uiDomain" : {
             "type" : "string",
-            "description" : "The domain used for the portal's user interface, represented as a string.",
+            "description" : "The domain used for the user interface of the portal, represented as a string.",
             "example" : null
           },
           "utcOffset" : {
             "type" : "string",
-            "description" : "The UTC offset of the portal's time zone, represented as a string.",
+            "description" : "The Coordinated Universal Time (UTC) offset for the portal's time zone, represented as a string.",
             "example" : null
           },
           "utcOffsetMilliseconds" : {
             "type" : "integer",
-            "description" : "The UTC offset of the portal's time zone in milliseconds, represented as an integer.",
+            "description" : "The UTC offset for the portal's time zone, represented in milliseconds as an integer.",
             "format" : "int64",
             "example" : null
           }
