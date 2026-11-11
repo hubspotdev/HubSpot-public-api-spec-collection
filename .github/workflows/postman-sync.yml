@@ -1,0 +1,102 @@
+name: Postman Spec Sync
+
+# Keeps HubSpot's public Postman workspace in step with this monorepo, using
+# .postman/migration-state.json as the source-of-truth mapping (produced by the
+# Phase 1 migration). Spec updates are non-destructive; collection updates are
+# additive only. See .postman/README.md.
+
+on:
+  # Manual runs give you full control (preview first, then apply).
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "plan = preview only (no writes) · apply = perform changes"
+        type: choice
+        required: true
+        default: plan
+        options: [plan, apply]
+      collections:
+        description: "Also additively add new endpoints to curated collections"
+        type: boolean
+        default: false
+      create-new:
+        description: "Create spec + collection for brand-new services in the repo"
+        type: boolean
+        default: true
+
+  # Scheduled runs keep specs current automatically (weekday mornings, UTC).
+  # Safe by design: spec sync only — collection writes stay manual until you
+  # opt in above. Remove this block if you'd rather run it only by hand.
+  schedule:
+    - cron: "0 7 * * 1-5"
+
+concurrency:
+  group: postman-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Resolve run parameters
+        id: cfg
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "mode=apply"        >> "$GITHUB_OUTPUT"   # scheduled = spec sync only
+            echo "collections=false" >> "$GITHUB_OUTPUT"
+            echo "create=true"       >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=${{ inputs.mode }}"               >> "$GITHUB_OUTPUT"
+            echo "collections=${{ inputs.collections }}" >> "$GITHUB_OUTPUT"
+            echo "create=${{ inputs.create-new }}"       >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run sync
+        env:
+          POSTMAN_API_KEY: ${{ secrets.POSTMAN_API_KEY }}
+          POSTMAN_WORKSPACE_ID: ${{ secrets.POSTMAN_WORKSPACE_ID }}
+        run: |
+          FLAGS="--${{ steps.cfg.outputs.mode }}"
+          [ "${{ steps.cfg.outputs.collections }}" = "true" ] || FLAGS="$FLAGS --no-collections"
+          [ "${{ steps.cfg.outputs.create }}" = "true" ]      || FLAGS="$FLAGS --no-create"
+          echo "Running: node .postman/sync.mjs $FLAGS"
+          node .postman/sync.mjs $FLAGS > sync-report.json
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: postman-sync-${{ github.run_id }}
+          path: |
+            sync-report.json
+            .postman/migration-state.json
+          retention-days: 90
+
+      - name: Open PR with updated state
+        if: steps.cfg.outputs.mode == 'apply'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- .postman/migration-state.json; then
+            echo ".postman/migration-state.json unchanged; no PR needed."
+            exit 0
+          fi
+          BRANCH="postman-sync/state-${{ github.run_id }}"
+          git config user.name "postman-sync[bot]"
+          git config user.email "postman-sync@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add .postman/migration-state.json
+          git commit -m "chore(postman): sync migration-state.json"
+          git push -u origin "$BRANCH"
+          gh pr create --title "Postman sync: update migration-state.json" \
+            --body "Automated Phase 2 sync updated the spec-to-collection mapping. See the run's sync-report.json artifact." \
+            --base "${{ github.ref_name }}" --head "$BRANCH"
