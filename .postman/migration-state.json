@@ -2707,15 +2707,14 @@
       "postman": {
         "specName": "Automation - Email Templates API Definition",
         "specId": "0fd81685-888d-4bb6-abba-e19c7245e422",
-        "groupingCollection": null,
-        "groupingCollectionUid": null,
-        "apiFolderName": null,
-        "apiFolderId": null,
-        "versionFolderName": null,
-        "versionFolderId": null,
-        "bindingLevel": null,
-        "boundVersion": null,
-        "collectionPending": true
+        "groupingCollection": "Automation API Collections",
+        "groupingCollectionUid": "26126890-c13185bb-dede-45ae-a8d8-ae1a1d63385a",
+        "apiFolderName": "Email Templates API",
+        "apiFolderId": "b98c6f72-3043-4ddd-b9a0-dd8ac4ce08f8",
+        "versionFolderName": "2026-09 [latest]",
+        "versionFolderId": "2d5be143-f60d-4047-ae5f-924f6803378e",
+        "bindingLevel": "version",
+        "boundVersion": "2026-09"
       },
       "createdBy": "phase2-sync",
       "createdAt": "2026-11-20T16:05:09.239Z"
@@ -2736,15 +2735,14 @@
       "postman": {
         "specName": "Commerce - Payment Links API Definition",
         "specId": "a3aba509-3810-4581-9869-ac18651b11d2",
-        "groupingCollection": null,
-        "groupingCollectionUid": null,
-        "apiFolderName": null,
-        "apiFolderId": null,
-        "versionFolderName": null,
-        "versionFolderId": null,
-        "bindingLevel": null,
-        "boundVersion": null,
-        "collectionPending": true
+        "groupingCollection": "Commerce API Collections",
+        "groupingCollectionUid": "60336635-48128fc6-615f-4f5d-be4a-2f667be14997",
+        "apiFolderName": "Payment Links API",
+        "apiFolderId": "6008eaf4-70f1-4361-876d-f7d67bfca6fb",
+        "versionFolderName": "2026-09 [latest]",
+        "versionFolderId": "ea3f8819-dd63-41cd-a978-09bf6b1350be",
+        "bindingLevel": "version",
+        "boundVersion": "2026-09"
       },
       "createdBy": "phase2-sync",
       "createdAt": "2026-11-20T16:05:09.546Z"
@@ -2765,15 +2763,14 @@
       "postman": {
         "specName": "Commerce - Paymentsaccounts API Definition",
         "specId": "418d7835-3b78-4f1a-b978-47c97a090fcd",
-        "groupingCollection": null,
-        "groupingCollectionUid": null,
-        "apiFolderName": null,
-        "apiFolderId": null,
-        "versionFolderName": null,
-        "versionFolderId": null,
-        "bindingLevel": null,
-        "boundVersion": null,
-        "collectionPending": true
+        "groupingCollection": "Commerce API Collections",
+        "groupingCollectionUid": "60336635-48128fc6-615f-4f5d-be4a-2f667be14997",
+        "apiFolderName": "Paymentsaccounts API",
+        "apiFolderId": "b37e21a0-f19d-4c84-8b9f-d31a60a51739",
+        "versionFolderName": "2026-09 [latest]",
+        "versionFolderId": "0baeaa85-ef43-490d-899c-4e3e1f7cf54f",
+        "bindingLevel": "version",
+        "boundVersion": "2026-09"
       },
       "createdBy": "phase2-sync",
       "createdAt": "2026-11-20T16:05:09.796Z"
@@ -2794,15 +2791,14 @@
       "postman": {
         "specName": "Commerce - Price Books API Definition",
         "specId": "71a00f9c-4adc-4168-8305-6a94a883b5c6",
-        "groupingCollection": null,
-        "groupingCollectionUid": null,
-        "apiFolderName": null,
-        "apiFolderId": null,
-        "versionFolderName": null,
-        "versionFolderId": null,
-        "bindingLevel": null,
-        "boundVersion": null,
-        "collectionPending": true
+        "groupingCollection": "Commerce API Collections",
+        "groupingCollectionUid": "60336635-48128fc6-615f-4f5d-be4a-2f667be14997",
+        "apiFolderName": "Price Books API",
+        "apiFolderId": "27fcf1e7-666e-490f-b358-7d4df57335f5",
+        "versionFolderName": "2026-09 [latest]",
+        "versionFolderId": "9a502437-3964-4d45-9ee9-abe7d52d118b",
+        "bindingLevel": "version",
+        "boundVersion": "2026-09"
       },
       "createdBy": "phase2-sync",
       "createdAt": "2026-11-20T16:05:10.053Z"
@@ -2823,15 +2819,14 @@
       "postman": {
         "specName": "CRM - Forecast Submissions API Definition",
         "specId": "5c5ad93e-d862-461b-8558-379039a055c9",
-        "groupingCollection": null,
-        "groupingCollectionUid": null,
-        "apiFolderName": null,
-        "apiFolderId": null,
-        "versionFolderName": null,
-        "versionFolderId": null,
-        "bindingLevel": null,
-        "boundVersion": null,
-        "collectionPending": true
+        "groupingCollection": "CRM API Collections",
+        "groupingCollectionUid": "26126890-fa75a62c-7a82-4c9e-ad99-edb189d8a73e",
+        "apiFolderName": "Forecast Submissions API",
+        "apiFolderId": "df604d60-6e8a-4096-b483-33b74f9b86b5",
+        "versionFolderName": "2026-09 [latest]",
+        "versionFolderId": "465bec5c-0862-4e6d-8e9e-474db440deb1",
+        "bindingLevel": "version",
+        "boundVersion": "2026-09"
       },
       "createdBy": "phase2-sync",
       "createdAt": "2026-11-20T16:05:10.338Z"
@@ -2852,15 +2847,14 @@
       "postman": {
         "specName": "CRM - Notetaker Conversation Recap API Definition",
         "specId": "b0f6309e-df59-43cf-bdc9-08e5b0a03eca",
-        "groupingCollection": null,
-        "groupingCollectionUid": null,
-        "apiFolderName": null,
-        "apiFolderId": null,
-        "versionFolderName": null,
-        "versionFolderId": null,
-        "bindingLevel": null,
-        "boundVersion": null,
-        "collectionPending": true
+        "groupingCollection": "CRM API Collections",
+        "groupingCollectionUid": "26126890-fa75a62c-7a82-4c9e-ad99-edb189d8a73e",
+        "apiFolderName": "Notetaker Conversation Recap API",
+        "apiFolderId": "fe3aaa39-96af-4117-bc9d-07373ab55992",
+        "versionFolderName": "2026-09 [latest]",
+        "versionFolderId": "186767ce-dd89-46c0-84f9-6d2a56fb49a1",
+        "bindingLevel": "version",
+        "boundVersion": "2026-09"
       },
       "createdBy": "phase2-sync",
       "createdAt": "2026-11-20T16:05:10.587Z"
@@ -2881,15 +2875,14 @@
       "postman": {
         "specName": "CRM - Object Tags API Definition",
         "specId": "7445d70d-d9f9-4748-9982-b58ef4779125",
-        "groupingCollection": null,
-        "groupingCollectionUid": null,
-        "apiFolderName": null,
-        "apiFolderId": null,
-        "versionFolderName": null,
-        "versionFolderId": null,
-        "bindingLevel": null,
-        "boundVersion": null,
-        "collectionPending": true
+        "groupingCollection": "CRM API Collections",
+        "groupingCollectionUid": "26126890-fa75a62c-7a82-4c9e-ad99-edb189d8a73e",
+        "apiFolderName": "Object Tags API",
+        "apiFolderId": "c435dcd7-3775-4ba1-9bd2-25c18dd46824",
+        "versionFolderName": "2026-09 [latest]",
+        "versionFolderId": "d2a3c97f-769e-4a0c-b914-95c757ee0e3d",
+        "bindingLevel": "version",
+        "boundVersion": "2026-09"
       },
       "createdBy": "phase2-sync",
       "createdAt": "2026-11-20T16:05:11.039Z"
@@ -2910,15 +2903,14 @@
       "postman": {
         "specName": "CRM - Pipeline Governance API Definition",
         "specId": "991de13e-be5e-44cb-8171-70aa844fff3e",
-        "groupingCollection": null,
-        "groupingCollectionUid": null,
-        "apiFolderName": null,
-        "apiFolderId": null,
-        "versionFolderName": null,
-        "versionFolderId": null,
-        "bindingLevel": null,
-        "boundVersion": null,
-        "collectionPending": true
+        "groupingCollection": "CRM API Collections",
+        "groupingCollectionUid": "26126890-fa75a62c-7a82-4c9e-ad99-edb189d8a73e",
+        "apiFolderName": "Pipeline Governance API",
+        "apiFolderId": "675bcef1-b7cf-46a4-8f91-5db5069437fb",
+        "versionFolderName": "2026-09 [latest]",
+        "versionFolderId": "8d5ca615-0d0f-453d-8e83-66c7aa23eb07",
+        "bindingLevel": "version",
+        "boundVersion": "2026-09"
       },
       "createdBy": "phase2-sync",
       "createdAt": "2026-11-20T16:05:11.312Z"
@@ -2939,15 +2931,14 @@
       "postman": {
         "specName": "CRM - Price Book Items Crm Reads Api API Definition",
         "specId": "c0d3af9d-9ed1-4f1d-9d79-0d404bc13228",
-        "groupingCollection": null,
-        "groupingCollectionUid": null,
-        "apiFolderName": null,
-        "apiFolderId": null,
-        "versionFolderName": null,
-        "versionFolderId": null,
-        "bindingLevel": null,
-        "boundVersion": null,
-        "collectionPending": true
+        "groupingCollection": "CRM API Collections",
+        "groupingCollectionUid": "26126890-fa75a62c-7a82-4c9e-ad99-edb189d8a73e",
+        "apiFolderName": "Price Book Items Crm Reads Api",
+        "apiFolderId": "efcda319-3f8b-4df6-afa2-cb98ccbbe8cd",
+        "versionFolderName": "2026-09 [latest]",
+        "versionFolderId": "4da11bd4-e9b0-4bbf-a33b-18b8d95b0215",
+        "bindingLevel": "version",
+        "boundVersion": "2026-09"
       },
       "createdBy": "phase2-sync",
       "createdAt": "2026-11-20T16:05:11.602Z"
@@ -2968,15 +2959,14 @@
       "postman": {
         "specName": "CRM - Price Books Crm Reads Api API Definition",
         "specId": "ee930dcb-7b5b-49ae-b258-95d21061eee4",
-        "groupingCollection": null,
-        "groupingCollectionUid": null,
-        "apiFolderName": null,
-        "apiFolderId": null,
-        "versionFolderName": null,
-        "versionFolderId": null,
-        "bindingLevel": null,
-        "boundVersion": null,
-        "collectionPending": true
+        "groupingCollection": "CRM API Collections",
+        "groupingCollectionUid": "26126890-fa75a62c-7a82-4c9e-ad99-edb189d8a73e",
+        "apiFolderName": "Price Books Crm Reads Api",
+        "apiFolderId": "d82b8049-829c-41b8-80ac-f398aea4715b",
+        "versionFolderName": "2026-09 [latest]",
+        "versionFolderId": "580f2174-49d1-465c-9be5-ab18f9f79c47",
+        "bindingLevel": "version",
+        "boundVersion": "2026-09"
       },
       "createdBy": "phase2-sync",
       "createdAt": "2026-11-20T16:05:11.870Z"
@@ -2997,15 +2987,14 @@
       "postman": {
         "specName": "CRM - Tasks Series API Definition",
         "specId": "6a929ff3-a9db-45f6-b1d2-ae2da8118765",
-        "groupingCollection": null,
-        "groupingCollectionUid": null,
-        "apiFolderName": null,
-        "apiFolderId": null,
-        "versionFolderName": null,
-        "versionFolderId": null,
-        "bindingLevel": null,
-        "boundVersion": null,
-        "collectionPending": true
+        "groupingCollection": "CRM API Collections",
+        "groupingCollectionUid": "26126890-fa75a62c-7a82-4c9e-ad99-edb189d8a73e",
+        "apiFolderName": "Tasks Series API",
+        "apiFolderId": "2cb8af71-cccc-4005-a6c6-e87048b1e00c",
+        "versionFolderName": "2026-09 [latest]",
+        "versionFolderId": "d21b4135-0e14-47aa-bb65-9b5a833a91e3",
+        "bindingLevel": "version",
+        "boundVersion": "2026-09"
       },
       "createdBy": "phase2-sync",
       "createdAt": "2026-11-20T16:05:12.121Z"
@@ -3026,15 +3015,14 @@
       "postman": {
         "specName": "Settings - Teams API Definition",
         "specId": "c7571933-f529-493d-8c1c-08369d5fbe27",
-        "groupingCollection": null,
-        "groupingCollectionUid": null,
-        "apiFolderName": null,
-        "apiFolderId": null,
-        "versionFolderName": null,
-        "versionFolderId": null,
-        "bindingLevel": null,
-        "boundVersion": null,
-        "collectionPending": true
+        "groupingCollection": "Settings API Collections",
+        "groupingCollectionUid": "26126890-177e1ace-347d-481b-9d2a-af2aada9cee8",
+        "apiFolderName": "Teams API",
+        "apiFolderId": "62486e68-567c-4595-a3e5-87b17e5c0be0",
+        "versionFolderName": "2026-09 [latest]",
+        "versionFolderId": "5eec8d6e-8a11-48bf-911b-179c84795d91",
+        "bindingLevel": "version",
+        "boundVersion": "2026-09"
       },
       "createdBy": "phase2-sync",
       "createdAt": "2026-11-20T16:05:12.398Z"
@@ -3155,5 +3143,5 @@
   ],
   "patchedAt": "2026-07-07T20:30:43.426Z",
   "patchNote": "Manually linked 4 non-conventional collections (Auth/Oauth, Business Units, Communication Preferences/Subscriptions, Webhooks Journal) from collection-overrides.json without re-running the migration.",
-  "updatedAt": "2026-11-20T16:05:12.398Z"
+  "updatedAt": "2026-11-20T16:25:33.867Z"
 }
