@@ -14,22 +14,24 @@
     "upload": "reports/04-upload-specs-apply-2026-07-01T19-47-59-989Z.json",
     "map": "reports/05-map-plan-2026-07-01T19-48-36-032Z.json"
   },
-  "apiCount": 96,
+  "apiCount": 108,
   "skippedCount": 11,
   "apis": {
     "Account/Account Info": {
       "group": "Account",
       "api": "Account Info",
-      "latestVersion": "2026-03",
-      "selectionReason": "published-latest",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "144923",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Account/Account Info/Rollouts/144923/2026-03/accountInfo.json",
-        "blobSha": "346aab3c861df53a207103cd299a3da898556a26",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Account/Account%20Info/Rollouts/144923/2026-03/accountInfo.json",
-        "curatedCollectionPath": "PublicApiSpecs/Account/Account Info/Rollouts/144923/2026-03/Collection_Directory Account API 2026-03/Account - Account Info API Collection 2026-03.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Account/Account%20Info/Rollouts/144923/2026-03/Collection_Directory%20Account%20API%202026-03/Account%20-%20Account%20Info%20API%20Collection%202026-03.json"
+        "rollout": "318954",
+        "otherRollouts": [
+          "144923"
+        ],
+        "specPath": "PublicApiSpecs/Account/Account Info/Rollouts/318954/2026-09/accountInfo.json",
+        "blobSha": "8c07112d26d9492b692f9f4a7797f196e81a0a6c",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Account/Account%20Info/Rollouts/318954/2026-09/accountInfo.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Account - Account Info API Definition",
@@ -40,22 +42,23 @@
         "apiFolderId": "602a060a-4f61-4d89-8ec2-40c596ceb08d",
         "versionFolderName": "2026-03 [latest]",
         "versionFolderId": "f71cf548-a8ae-4945-a3f8-4bb2362cffff",
-        "bindingLevel": "version"
+        "bindingLevel": "version",
+        "boundVersion": "2026-03"
       }
     },
     "Account/Audit Logs": {
       "group": "Account",
       "api": "Audit Logs",
-      "latestVersion": "2026-03",
-      "selectionReason": "published-latest",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "144923",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Account/Audit Logs/Rollouts/144923/2026-03/auditLogs.json",
-        "blobSha": "838153a5102744f6933c546928efaac1d29fbbdb",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Account/Audit%20Logs/Rollouts/144923/2026-03/auditLogs.json",
-        "curatedCollectionPath": "PublicApiSpecs/Account/Audit Logs/Rollouts/144923/2026-03/Collection_Directory Audit Logs 2026-03/Account - Audit Logs API Collection 2026-03.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Account/Audit%20Logs/Rollouts/144923/2026-03/Collection_Directory%20Audit%20Logs%202026-03/Account%20-%20Audit%20Logs%20API%20Collection%202026-03.json"
+        "specPath": "PublicApiSpecs/Account/Audit Logs/Rollouts/144923/2026-09/auditLogs.json",
+        "blobSha": "4be9f2f4d8dd9ccf2c4339cf0dbff1b7325bd06f",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Account/Audit%20Logs/Rollouts/144923/2026-09/auditLogs.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Account - Audit Logs API Definition",
@@ -66,22 +69,23 @@
         "apiFolderId": "28ac597a-9057-441d-9f2f-6aaa6c7ff23b",
         "versionFolderName": "2026-03 [latest]",
         "versionFolderId": "1b544300-d34c-49ab-8020-0fcf855f92f8",
-        "bindingLevel": "version"
+        "bindingLevel": "version",
+        "boundVersion": "2026-03"
       }
     },
     "Auth/Oauth": {
       "group": "Auth",
       "api": "Oauth",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "279897",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Auth/Oauth/Rollouts/279897/v3/oauth.json",
-        "blobSha": "e29a3779b43ee846fd7a29681e2743d08c8d2adb",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Auth/Oauth/Rollouts/279897/v3/oauth.json",
-        "curatedCollectionPath": "PublicApiSpecs/Auth/Oauth/Rollouts/279897/v3/Collection Directory_OAuth v3 API/Auth - OAuth v3 API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Auth/Oauth/Rollouts/279897/v3/Collection%20Directory_OAuth%20v3%20API/Auth%20-%20OAuth%20v3%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/Auth/Oauth/Rollouts/279897/2026-09/oauth.json",
+        "blobSha": "57e57053b305ed61df43638d66b232b10d65fc41",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Auth/Oauth/Rollouts/279897/2026-09/oauth.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Auth - Oauth API Definition",
@@ -92,22 +96,23 @@
         "apiFolderId": "26126890-be8f5494-409d-438f-8565-c1e8a6ce1e1f",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "Automation/Actions V4": {
       "group": "Automation",
       "api": "Actions V4",
-      "latestVersion": "v4",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "148901",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Automation/Actions V4/Rollouts/148901/v4/actionsV4.json",
-        "blobSha": "42ca1b4ac235bd76b5af2de3e4035569fa3f515f",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Automation/Actions%20V4/Rollouts/148901/v4/actionsV4.json",
-        "curatedCollectionPath": "PublicApiSpecs/Automation/Actions V4/Rollouts/148901/v4/Collection Directory_Automation Actions/Automation - Custom Workflow Actions API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Automation/Actions%20V4/Rollouts/148901/v4/Collection%20Directory_Automation%20Actions/Automation%20-%20Custom%20Workflow%20Actions%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/Automation/Actions V4/Rollouts/148901/2026-09/actionsV4.json",
+        "blobSha": "8439a41ac548285b212ec57ea5d5d18997e2e96d",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Automation/Actions%20V4/Rollouts/148901/2026-09/actionsV4.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Automation - Actions V4 API Definition",
@@ -118,7 +123,8 @@
         "apiFolderId": null,
         "versionFolderName": "v4",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "Automation/Automation V4": {
@@ -130,10 +136,10 @@
         "rollout": "144908",
         "otherRollouts": [],
         "specPath": "PublicApiSpecs/Automation/Automation V4/Rollouts/144908/v4/automationV4.json",
-        "blobSha": "8d90ec444d96e2fc1a22d976b084392779805499",
+        "blobSha": "c48708c5c12ccefb6adff6543bc99e66ed55936a",
         "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Automation/Automation%20V4/Rollouts/144908/v4/automationV4.json",
-        "curatedCollectionPath": "PublicApiSpecs/Automation/Automation V4/Rollouts/144908/v4/Collection Directory_Automation Workflows API /Automation - V4 Workflows API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Automation/Automation%20V4/Rollouts/144908/v4/Collection%20Directory_Automation%20Workflows%20API%20/Automation%20-%20V4%20Workflows%20API%20Collection.json"
+        "curatedCollectionPath": "blicApiSpecs/Automation/Automation V4/Rollouts/144908/v4/Collection Directory_Automation Workflows API /Automation - V4 Workflows API Collection.json",
+        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/blicApiSpecs/Automation/Automation%20V4/Rollouts/144908/v4/Collection%20Directory_Automation%20Workflows%20API%20/Automation%20-%20V4%20Workflows%20API%20Collection.json"
       },
       "postman": {
         "specName": "Automation - Automation V4 API Definition",
@@ -144,22 +150,25 @@
         "apiFolderId": null,
         "versionFolderName": "v4",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "Automation/Sequences": {
       "group": "Automation",
       "api": "Sequences",
-      "latestVersion": "v4",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "177891",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Automation/Sequences/Rollouts/177891/v4/sequences.json",
-        "blobSha": "6354b3c29267a4861de4bf6defd2836ff1f28a87",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Automation/Sequences/Rollouts/177891/v4/sequences.json",
-        "curatedCollectionPath": "PublicApiSpecs/Automation/Sequences/Rollouts/177891/v4/Sequences API Collection Directory/Automation - Sequences API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Automation/Sequences/Rollouts/177891/v4/Sequences%20API%20Collection%20Directory/Automation%20-%20Sequences%20API%20Collection.json"
+        "rollout": "321890",
+        "otherRollouts": [
+          "177891"
+        ],
+        "specPath": "PublicApiSpecs/Automation/Sequences/Rollouts/321890/2026-09/sequences.json",
+        "blobSha": "554ed951c4a49ffdfbf7428c724aeb78deae9879",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Automation/Sequences/Rollouts/321890/2026-09/sequences.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Automation - Sequences API Definition",
@@ -170,22 +179,23 @@
         "apiFolderId": "1f5567c1-1f01-4c9e-8214-79c5ae3f6791",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v4"
       }
     },
     "Business Units/Business Units": {
       "group": "Business Units",
       "api": "Business Units",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "140946",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Business Units/Business Units/Rollouts/140946/v3/businessUnits.json",
-        "blobSha": "8ed37008f2fc208280a35e66aa006ed454f8b371",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Business%20Units/Business%20Units/Rollouts/140946/v3/businessUnits.json",
-        "curatedCollectionPath": "PublicApiSpecs/Business Units/Business Units/Rollouts/140946/v3/Collection Directory 2/Settings - Business Unit API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Business%20Units/Business%20Units/Rollouts/140946/v3/Collection%20Directory%202/Settings%20-%20Business%20Unit%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/Business Units/Business Units/Rollouts/140946/2026-09/businessUnits.json",
+        "blobSha": "b8d75c47764ac926b89051e1caaf909b7e8051b5",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Business%20Units/Business%20Units/Rollouts/140946/2026-09/businessUnits.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Business Units - Business Units API Definition",
@@ -196,22 +206,23 @@
         "apiFolderId": "26126890-a9da2342-1fa4-48f0-940a-f103f1f4e705",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CMS/Authors": {
       "group": "CMS",
       "api": "Authors",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "635",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CMS/Authors/Rollouts/635/v3/authors.json",
-        "blobSha": "f001e6d7853ce5d6ad1dd84b6d82638fca484bbe",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Authors/Rollouts/635/v3/authors.json",
-        "curatedCollectionPath": "PublicApiSpecs/CMS/Authors/Rollouts/635/v3/Collection Directory 3/Blog Authors API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Authors/Rollouts/635/v3/Collection%20Directory%203/Blog%20Authors%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CMS/Authors/Rollouts/635/2026-09/authors.json",
+        "blobSha": "7a550c5dccdd831d48814b57f852fb6189e0a0a2",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Authors/Rollouts/635/2026-09/authors.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CMS - Authors API Definition",
@@ -222,22 +233,23 @@
         "apiFolderId": "0f7480bd-a871-4ba5-a76a-78ee3f533275",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CMS/Blog Settings": {
       "group": "CMS",
       "api": "Blog Settings",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "635",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CMS/Blog Settings/Rollouts/635/v3/blogSettings.json",
-        "blobSha": "3a0bef5490fbfcfb8ff5665c51f91c7047a1498f",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Blog%20Settings/Rollouts/635/v3/blogSettings.json",
-        "curatedCollectionPath": "PublicApiSpecs/CMS/Blog Settings/Rollouts/635/v3/Collection Directory 4/CMS - Blog Settings API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Blog%20Settings/Rollouts/635/v3/Collection%20Directory%204/CMS%20-%20Blog%20Settings%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CMS/Blog Settings/Rollouts/635/2026-09/blogSettings.json",
+        "blobSha": "ac8d37aac5e0019d415fb89b21dc3e5dd23a7864",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Blog%20Settings/Rollouts/635/2026-09/blogSettings.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CMS - Blog Settings API Definition",
@@ -248,22 +260,23 @@
         "apiFolderId": "825eee6b-16e2-4a1a-9438-ae0a1bba820d",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CMS/Cms Content Audit": {
       "group": "CMS",
       "api": "Cms Content Audit",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "144888",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CMS/Cms Content Audit/Rollouts/144888/v3/cmsContentAudit.json",
-        "blobSha": "2c938151f7b7769521dd07e167ee377f2eeea105",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Cms%20Content%20Audit/Rollouts/144888/v3/cmsContentAudit.json",
-        "curatedCollectionPath": "PublicApiSpecs/CMS/Cms Content Audit/Rollouts/144888/v3/CMS Content Audit API_Collection Directory/CMS - Content Audit API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Cms%20Content%20Audit/Rollouts/144888/v3/CMS%20Content%20Audit%20API_Collection%20Directory/CMS%20-%20Content%20Audit%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CMS/Cms Content Audit/Rollouts/144888/2026-09/cmsContentAudit.json",
+        "blobSha": "ce9a8e82b37f58b8e7a9d838c429e08b14a0bb9c",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Cms%20Content%20Audit/Rollouts/144888/2026-09/cmsContentAudit.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CMS - Cms Content Audit API Definition",
@@ -274,22 +287,23 @@
         "apiFolderId": "984deb1f-09af-4495-9587-51b10256c128",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CMS/Domains": {
       "group": "CMS",
       "api": "Domains",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "149894",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CMS/Domains/Rollouts/149894/v3/domains.json",
-        "blobSha": "a4d2c78b06cc070658a9cc4792f49c3d2050f3d4",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Domains/Rollouts/149894/v3/domains.json",
-        "curatedCollectionPath": "PublicApiSpecs/CMS/Domains/Rollouts/149894/v3/Collection Directory_CMS Domains API/CMS - Domains API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Domains/Rollouts/149894/v3/Collection%20Directory_CMS%20Domains%20API/CMS%20-%20Domains%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CMS/Domains/Rollouts/149894/2026-09/domains.json",
+        "blobSha": "74e0d536c2862807bfe2fd3b1f7ac349f352c72b",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Domains/Rollouts/149894/2026-09/domains.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CMS - Domains API Definition",
@@ -300,20 +314,21 @@
         "apiFolderId": "4ab75756-6b87-406b-9126-4b949a1b291b",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CMS/Hubdb": {
       "group": "CMS",
       "api": "Hubdb",
-      "latestVersion": "2026-03",
-      "selectionReason": "published-collection",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "243927",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CMS/Hubdb/Rollouts/243927/2026-03/hubdb.json",
-        "blobSha": "762270f1d4b564130fd3ac1ceab9d9ef12a5f3f2",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Hubdb/Rollouts/243927/2026-03/hubdb.json",
+        "specPath": "PublicApiSpecs/CMS/Hubdb/Rollouts/243927/2026-09/hubdb.json",
+        "blobSha": "786dbc97804f804f388127b6939cbc3f755b3f18",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Hubdb/Rollouts/243927/2026-09/hubdb.json",
         "curatedCollectionPath": null,
         "curatedCollectionUrl": null
       },
@@ -326,22 +341,23 @@
         "apiFolderId": "333af250-3f8e-435a-aec1-5cb9a54dcc8e",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "2026-03"
       }
     },
     "CMS/Media Bridge": {
       "group": "CMS",
       "api": "Media Bridge",
-      "latestVersion": "v1",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "787",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CMS/Media Bridge/Rollouts/787/v1/mediaBridge.json",
-        "blobSha": "89f4be348d95b3c4969b986766019799b942de81",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Media%20Bridge/Rollouts/787/v1/mediaBridge.json",
-        "curatedCollectionPath": "PublicApiSpecs/CMS/Media Bridge/Rollouts/787/v1/Collection Directory Media Bridges API/CMS - Media Bridge API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Media%20Bridge/Rollouts/787/v1/Collection%20Directory%20Media%20Bridges%20API/CMS%20-%20Media%20Bridge%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CMS/Media Bridge/Rollouts/787/2026-09/mediaBridge.json",
+        "blobSha": "9ebb9b2bbe20ba6006ffe3d6d766785af2dac403",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Media%20Bridge/Rollouts/787/2026-09/mediaBridge.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CMS - Media Bridge API Definition",
@@ -352,22 +368,23 @@
         "apiFolderId": "cc36ac77-b511-4cb6-9f35-960cb0fc8635",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v1"
       }
     },
     "CMS/Pages": {
       "group": "CMS",
       "api": "Pages",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "59888",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CMS/Pages/Rollouts/59888/v3/pages.json",
-        "blobSha": "936c18c808633ee9676588d41d32d3a2535c1cfe",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Pages/Rollouts/59888/v3/pages.json",
-        "curatedCollectionPath": "PublicApiSpecs/CMS/Pages/Rollouts/59888/v3/Collection Directory_Pages API/CMS - Pages API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Pages/Rollouts/59888/v3/Collection%20Directory_Pages%20API/CMS%20-%20Pages%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CMS/Pages/Rollouts/59888/2026-09/pages.json",
+        "blobSha": "f1c5921f0c6d33804695b763b4eabd8d0c8d39da",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Pages/Rollouts/59888/2026-09/pages.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CMS - Pages API Definition",
@@ -378,22 +395,23 @@
         "apiFolderId": "3e32f56a-43b7-4440-9cf5-391312507052",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CMS/Posts": {
       "group": "CMS",
       "api": "Posts",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "635",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CMS/Posts/Rollouts/635/v3/posts.json",
-        "blobSha": "0ecbac95e8cbd80d6f3953701a38404631318d6e",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Posts/Rollouts/635/v3/posts.json",
-        "curatedCollectionPath": "PublicApiSpecs/CMS/Posts/Rollouts/635/v3/Collection Directory_BlogPosts/CMS - Blog Posts API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Posts/Rollouts/635/v3/Collection%20Directory_BlogPosts/CMS%20-%20Blog%20Posts%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CMS/Posts/Rollouts/635/2026-09/posts.json",
+        "blobSha": "52f84a13dac6f29a0cd881ab5417b62883d31768",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Posts/Rollouts/635/2026-09/posts.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CMS - Posts API Definition",
@@ -404,22 +422,23 @@
         "apiFolderId": "6f2f492f-88c1-45c1-b0ae-763981ade313",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CMS/Site Search": {
       "group": "CMS",
       "api": "Site Search",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "144890",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CMS/Site Search/Rollouts/144890/v3/siteSearch.json",
-        "blobSha": "1a2cdbcab79aedb399ab2143a5c6c9c831ec2434",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Site%20Search/Rollouts/144890/v3/siteSearch.json",
-        "curatedCollectionPath": "PublicApiSpecs/CMS/Site Search/Rollouts/144890/v3/Collection Directory_CMS Site Search API/CMS - Site Search API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Site%20Search/Rollouts/144890/v3/Collection%20Directory_CMS%20Site%20Search%20API/CMS%20-%20Site%20Search%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CMS/Site Search/Rollouts/144890/2026-09/siteSearch.json",
+        "blobSha": "bbd55477c2a67f969289c3b7668c567b087e1e53",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Site%20Search/Rollouts/144890/2026-09/siteSearch.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CMS - Site Search API Definition",
@@ -430,22 +449,23 @@
         "apiFolderId": "8a00732f-1e43-47b9-b42f-8346f1f6f4ae",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CMS/Source Code": {
       "group": "CMS",
       "api": "Source Code",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "140886",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CMS/Source Code/Rollouts/140886/v3/sourceCode.json",
-        "blobSha": "24791236a4c8153759a99de8aef52537730e0359",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Source%20Code/Rollouts/140886/v3/sourceCode.json",
-        "curatedCollectionPath": "PublicApiSpecs/CMS/Source Code/Rollouts/140886/v3/Collection Directory_SourceCode/CMS - Source Code API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Source%20Code/Rollouts/140886/v3/Collection%20Directory_SourceCode/CMS%20-%20Source%20Code%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CMS/Source Code/Rollouts/140886/2026-09/sourceCode.json",
+        "blobSha": "7cd046e6cde9815dfe4e4b60d61637abdba8aa88",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Source%20Code/Rollouts/140886/2026-09/sourceCode.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CMS - Source Code API Definition",
@@ -456,22 +476,23 @@
         "apiFolderId": "45de5a89-c7b5-463a-a544-84c0b4dd2890",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CMS/Tags": {
       "group": "CMS",
       "api": "Tags",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "635",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CMS/Tags/Rollouts/635/v3/tags.json",
-        "blobSha": "1fe0c9604578df3eed219ba6fb2ce7d93bfecd0f",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Tags/Rollouts/635/v3/tags.json",
-        "curatedCollectionPath": "PublicApiSpecs/CMS/Tags/Rollouts/635/v3/Collection Directory_Tags/CMS - Blog Tags API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Tags/Rollouts/635/v3/Collection%20Directory_Tags/CMS%20-%20Blog%20Tags%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CMS/Tags/Rollouts/635/2026-09/tags.json",
+        "blobSha": "2da6d656a58d78fc0854978515e753145fd13ac0",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Tags/Rollouts/635/2026-09/tags.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CMS - Tags API Definition",
@@ -482,22 +503,23 @@
         "apiFolderId": "444d8e30-3599-4355-81e7-3d5dade5a645",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CMS/Url Redirects": {
       "group": "CMS",
       "api": "Url Redirects",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "149916",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CMS/Url Redirects/Rollouts/149916/v3/urlRedirects.json",
-        "blobSha": "35207210581e48935248ef5e19c2c26bab2823fb",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Url%20Redirects/Rollouts/149916/v3/urlRedirects.json",
-        "curatedCollectionPath": "PublicApiSpecs/CMS/Url Redirects/Rollouts/149916/v3/Collection Directory_URL Redirects API/CMS - URL Redirects API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Url%20Redirects/Rollouts/149916/v3/Collection%20Directory_URL%20Redirects%20API/CMS%20-%20URL%20Redirects%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CMS/Url Redirects/Rollouts/149916/2026-09/urlRedirects.json",
+        "blobSha": "596b22aeccc4a6c04977985bcee9cb759b096134",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CMS/Url%20Redirects/Rollouts/149916/2026-09/urlRedirects.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CMS - Url Redirects API Definition",
@@ -508,22 +530,23 @@
         "apiFolderId": "122ceb26-b3be-4561-83cc-119bd4ee0840",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "Communication Preferences/Subscriptions": {
       "group": "Communication Preferences",
       "api": "Subscriptions",
-      "latestVersion": "v4",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "176901",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Communication Preferences/Subscriptions/Rollouts/176901/v4/subscriptions.json",
-        "blobSha": "26e91a0275a86a930aa55b7d6e8ef8de74c3c43d",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Communication%20Preferences/Subscriptions/Rollouts/176901/v4/subscriptions.json",
-        "curatedCollectionPath": "PublicApiSpecs/Communication Preferences/Subscriptions/Rollouts/176901/v4/Collection Directory Subscript Preferences V4/Marketing - Subscription Preferences V4 API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Communication%20Preferences/Subscriptions/Rollouts/176901/v4/Collection%20Directory%20Subscript%20Preferences%20V4/Marketing%20-%20Subscription%20Preferences%20V4%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/Communication Preferences/Subscriptions/Rollouts/176901/2026-09/subscriptions.json",
+        "blobSha": "e93e7ef98e7593919612f36e353110e85c9b0ede",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Communication%20Preferences/Subscriptions/Rollouts/176901/2026-09/subscriptions.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Communication Preferences - Subscriptions API Definition",
@@ -534,20 +557,23 @@
         "apiFolderId": "26126890-65099961-fd03-48e4-9b8d-dcd3674562a4",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v4"
       }
     },
     "Conversations/Conversations": {
       "group": "Conversations",
       "api": "Conversations",
-      "latestVersion": "2026-09-beta",
-      "selectionReason": "published-latest",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "54902",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Conversations/Conversations/Rollouts/54902/2026-09-beta/conversations.json",
-        "blobSha": "6e653bcbe3a6596e59aaae0ccfdaf046bdd971f4",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Conversations/Conversations/Rollouts/54902/2026-09-beta/conversations.json",
+        "rollout": "338925",
+        "otherRollouts": [
+          "54902"
+        ],
+        "specPath": "PublicApiSpecs/Conversations/Conversations/Rollouts/338925/2026-09/conversations.json",
+        "blobSha": "55fa305ba73861739af50f788a6ec89f1c5c279e",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Conversations/Conversations/Rollouts/338925/2026-09/conversations.json",
         "curatedCollectionPath": null,
         "curatedCollectionUrl": null
       },
@@ -560,7 +586,8 @@
         "apiFolderId": "f0da2f2e-150f-4970-aeb7-5ceb0cb49f5a",
         "versionFolderName": "2026-09-beta [latest]",
         "versionFolderId": "4497c221-bd29-4021-a4b7-75f80620ba24",
-        "bindingLevel": "version"
+        "bindingLevel": "version",
+        "boundVersion": "2026-09-beta"
       }
     },
     "Conversations/Conversations Inbox & Messages": {
@@ -586,22 +613,23 @@
         "apiFolderId": "f0da2f2e-150f-4970-aeb7-5ceb0cb49f5a",
         "versionFolderName": "v3 [legacy]",
         "versionFolderId": "3dd440fa-5a03-4fbb-a973-5bae7c92717c",
-        "bindingLevel": "version"
+        "bindingLevel": "version",
+        "boundVersion": "v3"
       }
     },
     "Conversations/Custom Channels": {
       "group": "Conversations",
       "api": "Custom Channels",
-      "latestVersion": "2026-03",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "160898",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Conversations/Custom Channels/Rollouts/160898/2026-03/customChannels.json",
-        "blobSha": "8863806f6be673d3d9c6df4ddc3886af2cd675c1",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Conversations/Custom%20Channels/Rollouts/160898/2026-03/customChannels.json",
-        "curatedCollectionPath": "PublicApiSpecs/Conversations/Custom Channels/Rollouts/160898/2026-03/Collection Directory_Custom Channels 2026-03/Conversations - Custom Channels API Collection 2026-03.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Conversations/Custom%20Channels/Rollouts/160898/2026-03/Collection%20Directory_Custom%20Channels%202026-03/Conversations%20-%20Custom%20Channels%20API%20Collection%202026-03.json"
+        "specPath": "PublicApiSpecs/Conversations/Custom Channels/Rollouts/160898/2026-09/customChannels.json",
+        "blobSha": "f4f5040477324f03e86792a34fa08aacfb412005",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Conversations/Custom%20Channels/Rollouts/160898/2026-09/customChannels.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Conversations - Custom Channels API Definition",
@@ -612,22 +640,23 @@
         "apiFolderId": "aaa2258e-9bc8-433e-b96c-efdf4866f7af",
         "versionFolderName": "v2026-03 [latest]",
         "versionFolderId": "9c696ae3-d43c-4859-8b3c-8d4a728b8775",
-        "bindingLevel": "version"
+        "bindingLevel": "version",
+        "boundVersion": "2026-03"
       }
     },
     "Conversations/Visitor Identification": {
       "group": "Conversations",
       "api": "Visitor Identification",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "140938",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Conversations/Visitor Identification/Rollouts/140938/v3/visitorIdentification.json",
-        "blobSha": "9e919240af0fb3273153963a69b6d435fab55c28",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Conversations/Visitor%20Identification/Rollouts/140938/v3/visitorIdentification.json",
-        "curatedCollectionPath": "PublicApiSpecs/Conversations/Visitor Identification/Rollouts/140938/v3/Collection Directory_VisitorId/Conversations - Visitor Identification API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Conversations/Visitor%20Identification/Rollouts/140938/v3/Collection%20Directory_VisitorId/Conversations%20-%20Visitor%20Identification%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/Conversations/Visitor Identification/Rollouts/140938/2026-09/visitorIdentification.json",
+        "blobSha": "25490a62e46fbde2920bca51074f0b3bb785a0c8",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Conversations/Visitor%20Identification/Rollouts/140938/2026-09/visitorIdentification.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Conversations - Visitor Identification API Definition",
@@ -638,22 +667,23 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/App Uninstalls": {
       "group": "CRM",
       "api": "App Uninstalls",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "209039",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/App Uninstalls/Rollouts/209039/v3/appUninstalls.json",
-        "blobSha": "970fcd0b6e66f72b0641a3b1953807dded19bffa",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/App%20Uninstalls/Rollouts/209039/v3/appUninstalls.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/App Uninstalls/Rollouts/209039/v3/App Uninstall API Collection Directory/App Management - Uninstall API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/App%20Uninstalls/Rollouts/209039/v3/App%20Uninstall%20API%20Collection%20Directory/App%20Management%20-%20Uninstall%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/App Uninstalls/Rollouts/209039/2026-09/appUninstalls.json",
+        "blobSha": "bbd7800143a2bc0157eb60eb5a267a0ba402565e",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/App%20Uninstalls/Rollouts/209039/2026-09/appUninstalls.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - App Uninstalls API Definition",
@@ -664,22 +694,25 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Appointments": {
       "group": "CRM",
       "api": "Appointments",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Appointments/Rollouts/424/v3/appointments.json",
-        "blobSha": "d4e0ce5819a1968b041c8341c74de6d126592553",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Appointments/Rollouts/424/v3/appointments.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Appointments/Rollouts/424/v3/Collection Directory Appointments API/CRM - Appointments API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Appointments/Rollouts/424/v3/Collection%20Directory%20Appointments%20API/CRM%20-%20Appointments%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Appointments/Rollouts/321895/2026-09/appointments.json",
+        "blobSha": "b07f8646caa32c21cff9032cfbb41ee61ace3f0e",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Appointments/Rollouts/321895/2026-09/appointments.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Appointments API Definition",
@@ -690,22 +723,25 @@
         "apiFolderId": "38c220e8-ba17-492c-a19d-3a31a557a2c1",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Associations": {
       "group": "CRM",
       "api": "Associations",
-      "latestVersion": "2025-09",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "130902",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Associations/Rollouts/130902/2025-09/associations.json",
-        "blobSha": "29bf5f1461ccafb8cfe73d65989be35a854f70a5",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Associations/Rollouts/130902/2025-09/associations.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Associations/Rollouts/130902/2025-09/CollectionDirectory_AssociationsAPIDBV/CRM - Associations DBV API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Associations/Rollouts/130902/2025-09/CollectionDirectory_AssociationsAPIDBV/CRM%20-%20Associations%20DBV%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "130902"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Associations/Rollouts/321895/2026-09/associations.json",
+        "blobSha": "e692d04d126ddce518301eea290c7ea4bbc3fae7",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Associations/Rollouts/321895/2026-09/associations.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Associations API Definition",
@@ -716,22 +752,23 @@
         "apiFolderId": null,
         "versionFolderName": "2025-09",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Associations Schema": {
       "group": "CRM",
       "api": "Associations Schema",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "120891",
+        "rollout": "130902",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Associations Schema/Rollouts/120891/v3/associationsSchema.json",
-        "blobSha": "26ce84366dc4c0ec9c35811cd83151516ed62a9c",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Associations%20Schema/Rollouts/120891/v3/associationsSchema.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Associations Schema/Rollouts/120891/v3/Collection Directory_AssocV3/CRM - Associations V3 Schema API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Associations%20Schema/Rollouts/120891/v3/Collection%20Directory_AssocV3/CRM%20-%20Associations%20V3%20Schema%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Associations Schema/Rollouts/130902/2026-09/associationsSchema.json",
+        "blobSha": "09c5be9b55c40166fa6b2f7e199a4d42d37e2fd9",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Associations%20Schema/Rollouts/130902/2026-09/associationsSchema.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Associations Schema API Definition",
@@ -742,22 +779,23 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Calling Extensions": {
       "group": "CRM",
       "api": "Calling Extensions",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "145891",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Calling Extensions/Rollouts/145891/v3/callingExtensions.json",
-        "blobSha": "79d6a427e72b63d7ce9187c47a336662b1be6542",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Calling%20Extensions/Rollouts/145891/v3/callingExtensions.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Calling Extensions/Rollouts/145891/v3/Collection Directory_CallingExtensions/Extend CRM - Calling Extensions API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Calling%20Extensions/Rollouts/145891/v3/Collection%20Directory_CallingExtensions/Extend%20CRM%20-%20Calling%20Extensions%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Calling Extensions/Rollouts/145891/2026-09/callingExtensions.json",
+        "blobSha": "465ac2ff5d083f02c894aa0c0823b03ca7463c85",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Calling%20Extensions/Rollouts/145891/2026-09/callingExtensions.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Calling Extensions API Definition",
@@ -768,22 +806,25 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Calls": {
       "group": "CRM",
       "api": "Calls",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Calls/Rollouts/424/v3/calls.json",
-        "blobSha": "c8e4c486590e3b1dfbe8e2aa5fc559e92dc6e9c9",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Calls/Rollouts/424/v3/calls.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Calls/Rollouts/424/v3/Collection Directory_Calls/CRM - Engagements, Calls API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Calls/Rollouts/424/v3/Collection%20Directory_Calls/CRM%20-%20Engagements%2C%20Calls%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Calls/Rollouts/321895/2026-09/calls.json",
+        "blobSha": "4b870d1b5a40bcb65ca29f4e966d1a0b16c03695",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Calls/Rollouts/321895/2026-09/calls.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Calls API Definition",
@@ -794,22 +835,25 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Carts": {
       "group": "CRM",
       "api": "Carts",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Carts/Rollouts/424/v3/carts.json",
-        "blobSha": "2f46be067a2d09f281e69f06755aba19487cfbd6",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Carts/Rollouts/424/v3/carts.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Carts/Rollouts/424/v3/Collection Directory_Carts/CRM - Carts API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Carts/Rollouts/424/v3/Collection%20Directory_Carts/CRM%20-%20Carts%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Carts/Rollouts/321895/2026-09/carts.json",
+        "blobSha": "6d49825b05f04862df5284e99a8d6181da8df22e",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Carts/Rollouts/321895/2026-09/carts.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Carts API Definition",
@@ -820,22 +864,25 @@
         "apiFolderId": "f5ca4af6-a2c1-4796-9fb2-c43aec64d607",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Commerce Payments": {
       "group": "CRM",
       "api": "Commerce Payments",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Commerce Payments/Rollouts/424/v3/commercePayments.json",
-        "blobSha": "3a2fa8f9fc4063773a50d62cbff55f0b1f1009d4",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Commerce%20Payments/Rollouts/424/v3/commercePayments.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Commerce Payments/Rollouts/424/v3/Collection Directory_Commerce Payments/CRM - Commerce Payments API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Commerce%20Payments/Rollouts/424/v3/Collection%20Directory_Commerce%20Payments/CRM%20-%20Commerce%20Payments%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Commerce Payments/Rollouts/321895/2026-09/commercePayments.json",
+        "blobSha": "d69b5bdfd70e6849f27d7ca58b6bf64f550c7447",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Commerce%20Payments/Rollouts/321895/2026-09/commercePayments.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Commerce Payments API Definition",
@@ -846,20 +893,23 @@
         "apiFolderId": "81f0efe8-c898-4575-88fe-b0d8caadc6c9",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Commerce Subscriptions": {
       "group": "CRM",
       "api": "Commerce Subscriptions",
-      "latestVersion": "2026-03",
-      "selectionReason": "published-collection",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "206901",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Commerce Subscriptions/Rollouts/206901/2026-03/commerceSubscriptions.json",
-        "blobSha": "1616ccaee014e0e6c72f909dd801af9765abbc41",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Commerce%20Subscriptions/Rollouts/206901/2026-03/commerceSubscriptions.json",
+        "rollout": "321895",
+        "otherRollouts": [
+          "206901"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Commerce Subscriptions/Rollouts/321895/2026-09/commerceSubscriptions.json",
+        "blobSha": "da80340e0f639623903eec14a571b99cc4e16325",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Commerce%20Subscriptions/Rollouts/321895/2026-09/commerceSubscriptions.json",
         "curatedCollectionPath": null,
         "curatedCollectionUrl": null
       },
@@ -872,22 +922,25 @@
         "apiFolderId": "e128cc3a-f153-45a1-aea0-8662fb026e49",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "2026-03"
       }
     },
     "CRM/Communications": {
       "group": "CRM",
       "api": "Communications",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Communications/Rollouts/424/v3/communications.json",
-        "blobSha": "ebeef892b35747b1ccfd0dcdc4bf9ca6f3cf139f",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Communications/Rollouts/424/v3/communications.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Communications/Rollouts/424/v3/Collection Directory_Communications/CRM - Engagements, Communications API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Communications/Rollouts/424/v3/Collection%20Directory_Communications/CRM%20-%20Engagements%2C%20Communications%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Communications/Rollouts/321895/2026-09/communications.json",
+        "blobSha": "542ecb094739f49738b31319e3bc5a7bbaebe54b",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Communications/Rollouts/321895/2026-09/communications.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Communications API Definition",
@@ -898,22 +951,25 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Companies": {
       "group": "CRM",
       "api": "Companies",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Companies/Rollouts/424/v3/companies.json",
-        "blobSha": "d02ccb1864833ff6235b184f366d8236671ed3e6",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Companies/Rollouts/424/v3/companies.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Companies/Rollouts/424/v3/Collection Directory_Companies/CRM - Companies API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Companies/Rollouts/424/v3/Collection%20Directory_Companies/CRM%20-%20Companies%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Companies/Rollouts/321895/2026-09/companies.json",
+        "blobSha": "e05410c0959461011db21aa4ae2e0ded8da95754",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Companies/Rollouts/321895/2026-09/companies.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Companies API Definition",
@@ -924,20 +980,23 @@
         "apiFolderId": "ba0b53aa-1c22-4196-a6fc-7e8c94a32f88",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Contacts": {
       "group": "CRM",
       "api": "Contacts",
-      "latestVersion": "2026-03",
-      "selectionReason": "published-collection",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Contacts/Rollouts/424/2026-03/contacts.json",
-        "blobSha": "15d721acde96432a0002c11da8042d28f8be6ede",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Contacts/Rollouts/424/2026-03/contacts.json",
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Contacts/Rollouts/321895/2026-09/contacts.json",
+        "blobSha": "1cd6bf1b2bf7545469e04db362e34a103e978d4a",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Contacts/Rollouts/321895/2026-09/contacts.json",
         "curatedCollectionPath": null,
         "curatedCollectionUrl": null
       },
@@ -950,22 +1009,25 @@
         "apiFolderId": "9515c900-feeb-4b33-b2b9-25296670147c",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "2026-03"
       }
     },
     "CRM/Courses": {
       "group": "CRM",
       "api": "Courses",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Courses/Rollouts/424/v3/courses.json",
-        "blobSha": "2de03e4327f821ea311754caf8d9f74d37f48975",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Courses/Rollouts/424/v3/courses.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Courses/Rollouts/424/v3/Collection Directory Courses API/CRM - Courses API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Courses/Rollouts/424/v3/Collection%20Directory%20Courses%20API/CRM%20-%20Courses%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Courses/Rollouts/321895/2026-09/courses.json",
+        "blobSha": "64c2e99bcb48202e9b1584d48eed20e600d49b18",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Courses/Rollouts/321895/2026-09/courses.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Courses API Definition",
@@ -976,22 +1038,23 @@
         "apiFolderId": "8b9b0ef2-b269-41da-8f23-5c358f91c456",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Crm Owners": {
       "group": "CRM",
       "api": "Crm Owners",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "146888",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Crm Owners/Rollouts/146888/v3/crmOwners.json",
-        "blobSha": "2d73c61d0057bc95e1c3a0fb361d42789b587c54",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Crm%20Owners/Rollouts/146888/v3/crmOwners.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Crm Owners/Rollouts/146888/v3/Collection Directory_CRMOwner/CRM - Owners API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Crm%20Owners/Rollouts/146888/v3/Collection%20Directory_CRMOwner/CRM%20-%20Owners%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Crm Owners/Rollouts/146888/2026-09/crmOwners.json",
+        "blobSha": "ddc8fb4cceab0e46deb27a531f6aba7bd49aba99",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Crm%20Owners/Rollouts/146888/2026-09/crmOwners.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Crm Owners API Definition",
@@ -1002,22 +1065,25 @@
         "apiFolderId": "3d0d9785-9e59-4d38-9a5f-4b10d4e1e637",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Custom Objects": {
       "group": "CRM",
       "api": "Custom Objects",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Custom Objects/Rollouts/424/v3/customObjects.json",
-        "blobSha": "9e3bb04b130fda5f5be93ead931cac0acde0f48d",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Custom%20Objects/Rollouts/424/v3/customObjects.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Custom Objects/Rollouts/424/v3/Collection Directory_CustomObjects/CRM - Custom Objects API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Custom%20Objects/Rollouts/424/v3/Collection%20Directory_CustomObjects/CRM%20-%20Custom%20Objects%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Custom Objects/Rollouts/321895/2026-09/customObjects.json",
+        "blobSha": "babbe288eefd4b08f2bba3a0de383f1e90c89877",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Custom%20Objects/Rollouts/321895/2026-09/customObjects.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Custom Objects API Definition",
@@ -1028,22 +1094,23 @@
         "apiFolderId": "964e1802-aebe-4f2a-8a78-15da83b624be",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Deal Splits": {
       "group": "CRM",
       "api": "Deal Splits",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "157885",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Deal Splits/Rollouts/157885/v3/dealSplits.json",
-        "blobSha": "3345fe68a130e6b804caef53d8345ed6c0653dfc",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Deal%20Splits/Rollouts/157885/v3/dealSplits.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Deal Splits/Rollouts/157885/v3/Collection Directory_Deal Splits/CRM - Deal Splits API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Deal%20Splits/Rollouts/157885/v3/Collection%20Directory_Deal%20Splits/CRM%20-%20Deal%20Splits%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Deal Splits/Rollouts/157885/2026-09/dealSplits.json",
+        "blobSha": "e6b36c5b14dadd0ad35be3869335922bd0c5dafb",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Deal%20Splits/Rollouts/157885/2026-09/dealSplits.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Deal Splits API Definition",
@@ -1054,22 +1121,25 @@
         "apiFolderId": "a0c44b09-d45c-448f-9499-399a01a13833",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Deals": {
       "group": "CRM",
       "api": "Deals",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Deals/Rollouts/424/v3/deals.json",
-        "blobSha": "862f219ed7a6e45459dfaeae9bb5d4bbf3199391",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Deals/Rollouts/424/v3/deals.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Deals/Rollouts/424/v3/Collection Directory_Deals/CRM - Deals API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Deals/Rollouts/424/v3/Collection%20Directory_Deals/CRM%20-%20Deals%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Deals/Rollouts/321895/2026-09/deals.json",
+        "blobSha": "0081959c333a295caeade0e25e849f8d7fc9a22a",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Deals/Rollouts/321895/2026-09/deals.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Deals API Definition",
@@ -1080,22 +1150,25 @@
         "apiFolderId": "b40cefb3-622e-4b59-944c-a12d5f41e2b6",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Discounts": {
       "group": "CRM",
       "api": "Discounts",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Discounts/Rollouts/424/v3/discounts.json",
-        "blobSha": "5115cdc2e336c9d381efc76e138e35e4b5ad97c2",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Discounts/Rollouts/424/v3/discounts.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Discounts/Rollouts/424/v3/Collection Directory_Discounts/CRM - Discounts API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Discounts/Rollouts/424/v3/Collection%20Directory_Discounts/CRM%20-%20Discounts%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Discounts/Rollouts/321895/2026-09/discounts.json",
+        "blobSha": "10fb271be77064e8469697f03be78823a2c4740f",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Discounts/Rollouts/321895/2026-09/discounts.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Discounts API Definition",
@@ -1106,22 +1179,25 @@
         "apiFolderId": "7c351482-6621-46f7-8779-e0015ed1197e",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Emails": {
       "group": "CRM",
       "api": "Emails",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Emails/Rollouts/424/v3/emails.json",
-        "blobSha": "e9e694375ba4cf46ec4334c8f4a5277ae7cb0d86",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Emails/Rollouts/424/v3/emails.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Emails/Rollouts/424/v3/Collection Directory_Emails/CRM - Engagements, Email API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Emails/Rollouts/424/v3/Collection%20Directory_Emails/CRM%20-%20Engagements%2C%20Email%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Emails/Rollouts/321895/2026-09/emails.json",
+        "blobSha": "0433d99b6702ff3862326d5d0f7ab2f1f626292b",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Emails/Rollouts/321895/2026-09/emails.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Emails API Definition",
@@ -1132,22 +1208,23 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Exports": {
       "group": "CRM",
       "api": "Exports",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "95922",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Exports/Rollouts/95922/v3/exports.json",
-        "blobSha": "1862a439bb6059d26d65bee85a467eb6992125de",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Exports/Rollouts/95922/v3/exports.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Exports/Rollouts/95922/v3/Collection Directory_Exports/CRM - Exports API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Exports/Rollouts/95922/v3/Collection%20Directory_Exports/CRM%20-%20Exports%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Exports/Rollouts/95922/2026-09/exports.json",
+        "blobSha": "f86faf1e6686a89a88f5a169da68f1a12f2f2d6d",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Exports/Rollouts/95922/2026-09/exports.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Exports API Definition",
@@ -1158,22 +1235,25 @@
         "apiFolderId": "48ad4283-3935-4b11-bbcc-01f597a6e249",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Feedback Submissions": {
       "group": "CRM",
       "api": "Feedback Submissions",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Feedback Submissions/Rollouts/424/v3/feedbackSubmissions.json",
-        "blobSha": "4f3accc2aa4c8f5850120555df799313d91b07f4",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Feedback%20Submissions/Rollouts/424/v3/feedbackSubmissions.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Feedback Submissions/Rollouts/424/v3/Collection Directory_FeedbackSubmission/CRM - Feedback Submissions API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Feedback%20Submissions/Rollouts/424/v3/Collection%20Directory_FeedbackSubmission/CRM%20-%20Feedback%20Submissions%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Feedback Submissions/Rollouts/321895/2026-09/feedbackSubmissions.json",
+        "blobSha": "91cdf28e2e7c78718b387b9f4dde0a3dbae68cc3",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Feedback%20Submissions/Rollouts/321895/2026-09/feedbackSubmissions.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Feedback Submissions API Definition",
@@ -1184,22 +1264,25 @@
         "apiFolderId": "334eb174-7fce-4ff0-b3fb-31f12a0b6e88",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Fees": {
       "group": "CRM",
       "api": "Fees",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Fees/Rollouts/424/v3/fees.json",
-        "blobSha": "b92eda595b45d532d8d2163a612d2b6e23f16e13",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Fees/Rollouts/424/v3/fees.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Fees/Rollouts/424/v3/Collection Directory_Fees/CRM - Fees API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Fees/Rollouts/424/v3/Collection%20Directory_Fees/CRM%20-%20Fees%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Fees/Rollouts/321895/2026-09/fees.json",
+        "blobSha": "d5ce3213f05a6033bf9b2ef470b27e22f736ce2a",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Fees/Rollouts/321895/2026-09/fees.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Fees API Definition",
@@ -1210,22 +1293,23 @@
         "apiFolderId": "4569a9ba-b5a3-4310-991c-d86e55cd1f96",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Forecast Types": {
       "group": "CRM",
       "api": "Forecast Types",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "260892",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Forecast Types/Rollouts/260892/v3/forecastTypes.json",
-        "blobSha": "5a62bafc0ccc7ee062205a064a10281fd9fbadc5",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Forecast%20Types/Rollouts/260892/v3/forecastTypes.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Forecast Types/Rollouts/260892/v3/Collection Directory_Forecast Read API/CRM - Forecasts Read API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Forecast%20Types/Rollouts/260892/v3/Collection%20Directory_Forecast%20Read%20API/CRM%20-%20Forecasts%20Read%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Forecast Types/Rollouts/260892/2026-09/forecastTypes.json",
+        "blobSha": "3220c58556dd9441e673ec3b5362d322ef3b2aa0",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Forecast%20Types/Rollouts/260892/2026-09/forecastTypes.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Forecast Types API Definition",
@@ -1236,22 +1320,23 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Forecasts": {
       "group": "CRM",
       "api": "Forecasts",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "260892",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Forecasts/Rollouts/260892/v3/forecasts.json",
-        "blobSha": "64944be380f0ca93e74926152c0429d1c4b9ddda",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Forecasts/Rollouts/260892/v3/forecasts.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Forecasts/Rollouts/260892/v3/CollectionDirectory_Forecasts API /CRM - Forecasts API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Forecasts/Rollouts/260892/v3/CollectionDirectory_Forecasts%20API%20/CRM%20-%20Forecasts%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Forecasts/Rollouts/260892/2026-09/forecasts.json",
+        "blobSha": "fc7678f8cd238025d2407e33e47ffc442fd2780e",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Forecasts/Rollouts/260892/2026-09/forecasts.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Forecasts API Definition",
@@ -1262,22 +1347,25 @@
         "apiFolderId": "0c4c55ff-342e-4e1d-b516-416e04980cbc",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Goal Targets": {
       "group": "CRM",
       "api": "Goal Targets",
-      "latestVersion": "2026-03",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Goal Targets/Rollouts/424/2026-03/goalTargets.json",
-        "blobSha": "bb8e135f525ac0e6cf0a849e3e5e80b367beda4b",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Goal%20Targets/Rollouts/424/2026-03/goalTargets.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Goal Targets/Rollouts/424/2026-03/CollectionDirectory_GoalTargetAPI/CRM - Goal Targets API Collection 2026-03.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Goal%20Targets/Rollouts/424/2026-03/CollectionDirectory_GoalTargetAPI/CRM%20-%20Goal%20Targets%20API%20Collection%202026-03.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Goal Targets/Rollouts/321895/2026-09/goalTargets.json",
+        "blobSha": "fa4245fc5bffaad02fdb9b1a6407b3a775143ea5",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Goal%20Targets/Rollouts/321895/2026-09/goalTargets.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Goal Targets API Definition",
@@ -1288,22 +1376,23 @@
         "apiFolderId": null,
         "versionFolderName": "2026-03",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Imports": {
       "group": "CRM",
       "api": "Imports",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "144903",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Imports/Rollouts/144903/v3/imports.json",
-        "blobSha": "87038ea0b4b2b7e4f1f98eb30250fa2119e6723b",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Imports/Rollouts/144903/v3/imports.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Imports/Rollouts/144903/v3/Collection Directory_Imports/CRM - Imports API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Imports/Rollouts/144903/v3/Collection%20Directory_Imports/CRM%20-%20Imports%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Imports/Rollouts/144903/2026-09/imports.json",
+        "blobSha": "3f2577dcd406d343cb49551400a42bc5f8668eb9",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Imports/Rollouts/144903/2026-09/imports.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Imports API Definition",
@@ -1314,22 +1403,25 @@
         "apiFolderId": "a97e9b01-e1b8-4725-bc5a-13be5d6c8098",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Invoices": {
       "group": "CRM",
       "api": "Invoices",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Invoices/Rollouts/424/v3/invoices.json",
-        "blobSha": "61782c6ecbec5e0cb0ce5eb21767dbaf11d19652",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Invoices/Rollouts/424/v3/invoices.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Invoices/Rollouts/424/v3/Collection Directory_Invoices/CRM - Invoices API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Invoices/Rollouts/424/v3/Collection%20Directory_Invoices/CRM%20-%20Invoices%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Invoices/Rollouts/321895/2026-09/invoices.json",
+        "blobSha": "d3610cea63baf9536823140f4e36015c35d41cc1",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Invoices/Rollouts/321895/2026-09/invoices.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Invoices API Definition",
@@ -1340,22 +1432,25 @@
         "apiFolderId": "2f0cd1a7-ea0d-417b-86c8-eaa15e2cad00",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Leads": {
       "group": "CRM",
       "api": "Leads",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Leads/Rollouts/424/v3/leads.json",
-        "blobSha": "f7daa294732fab90a3bc9ef6589a33418e1aa6f1",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Leads/Rollouts/424/v3/leads.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Leads/Rollouts/424/v3/Collection Directory_Leads/CRM - Leads API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Leads/Rollouts/424/v3/Collection%20Directory_Leads/CRM%20-%20Leads%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Leads/Rollouts/321895/2026-09/leads.json",
+        "blobSha": "ab11de9301939030e1fc0532a049ead8235ffcab",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Leads/Rollouts/321895/2026-09/leads.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Leads API Definition",
@@ -1366,22 +1461,23 @@
         "apiFolderId": "e57881b6-7112-426c-9930-c9c3c2aa6fea",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Limits Tracking": {
       "group": "CRM",
       "api": "Limits Tracking",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "199890",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Limits Tracking/Rollouts/199890/v3/limitsTracking.json",
-        "blobSha": "21600833739954c5bdca3904ec15ea8033c2c6dd",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Limits%20Tracking/Rollouts/199890/v3/limitsTracking.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Limits Tracking/Rollouts/199890/v3/Limits Tracking API Collection Directory/CRM - Limits API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Limits%20Tracking/Rollouts/199890/v3/Limits%20Tracking%20API%20Collection%20Directory/CRM%20-%20Limits%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Limits Tracking/Rollouts/199890/2026-09/limitsTracking.json",
+        "blobSha": "d353c4772626d91a5f2ae2cf9dece758cbe20575",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Limits%20Tracking/Rollouts/199890/2026-09/limitsTracking.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Limits Tracking API Definition",
@@ -1392,22 +1488,25 @@
         "apiFolderId": "3b033026-06b0-4f48-ae7b-8e282119b393",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Line Items": {
       "group": "CRM",
       "api": "Line Items",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Line Items/Rollouts/424/v3/lineItems.json",
-        "blobSha": "7647e77ec6f6cc38b0fd131543777dbb087a2dc3",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Line%20Items/Rollouts/424/v3/lineItems.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Line Items/Rollouts/424/v3/Collection Directory_LineItems/CRM - Line Items API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Line%20Items/Rollouts/424/v3/Collection%20Directory_LineItems/CRM%20-%20Line%20Items%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Line Items/Rollouts/321895/2026-09/lineItems.json",
+        "blobSha": "3bc38dcb4d37b536173811e8421bab6bff30d564",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Line%20Items/Rollouts/321895/2026-09/lineItems.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Line Items API Definition",
@@ -1418,22 +1517,25 @@
         "apiFolderId": "e342797c-7cd4-4c76-8b7f-f6d347f087be",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Listings": {
       "group": "CRM",
       "api": "Listings",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Listings/Rollouts/424/v3/listings.json",
-        "blobSha": "4ab22b8f62731c432e16d46b3391498b062120f4",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Listings/Rollouts/424/v3/listings.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Listings/Rollouts/424/v3/Collection Directory Listings API /CRM - Listings API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Listings/Rollouts/424/v3/Collection%20Directory%20Listings%20API%20/CRM%20-%20Listings%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Listings/Rollouts/321895/2026-09/listings.json",
+        "blobSha": "3f111b8fb3da0f204d4578ecd896c07fcd717ceb",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Listings/Rollouts/321895/2026-09/listings.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Listings API Definition",
@@ -1444,22 +1546,25 @@
         "apiFolderId": "addb6841-ad5f-4216-888e-e9923fe1fea6",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Lists": {
       "group": "CRM",
       "api": "Lists",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "144891",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Lists/Rollouts/144891/v3/lists.json",
-        "blobSha": "2cfc7d20f5a539228e071331de4c206570ae693c",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Lists/Rollouts/144891/v3/lists.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Lists/Rollouts/144891/v3/Collection_Directory_Lists/CRM - Lists API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Lists/Rollouts/144891/v3/Collection_Directory_Lists/CRM%20-%20Lists%20API%20Collection.json"
+        "rollout": "327894",
+        "otherRollouts": [
+          "144891"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Lists/Rollouts/327894/2026-09/lists.json",
+        "blobSha": "f6d8bf6a1bbce37ec4b8e38efc7fe8d77b62a644",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Lists/Rollouts/327894/2026-09/lists.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Lists API Definition",
@@ -1470,22 +1575,25 @@
         "apiFolderId": "d80bfd05-6a5f-4b1d-8949-175ccde39c21",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Meetings": {
       "group": "CRM",
       "api": "Meetings",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Meetings/Rollouts/424/v3/meetings.json",
-        "blobSha": "9a3772741bd6ea40731c6c55d9a909c6f14ad4d1",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Meetings/Rollouts/424/v3/meetings.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Meetings/Rollouts/424/v3/Collection Directory_Meetings/CRM - Engagements, Meetings API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Meetings/Rollouts/424/v3/Collection%20Directory_Meetings/CRM%20-%20Engagements%2C%20Meetings%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Meetings/Rollouts/321895/2026-09/meetings.json",
+        "blobSha": "77e70799d0002f64ab60aff39aaaa3f0eaa58b3f",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Meetings/Rollouts/321895/2026-09/meetings.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Meetings API Definition",
@@ -1496,22 +1604,25 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Notes": {
       "group": "CRM",
       "api": "Notes",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Notes/Rollouts/424/v3/notes.json",
-        "blobSha": "82a74b9935f6007c6326db41e07f067dd1b98a51",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Notes/Rollouts/424/v3/notes.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Notes/Rollouts/424/v3/Collection Directory_Notes/CRM - Engagements, Notes API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Notes/Rollouts/424/v3/Collection%20Directory_Notes/CRM%20-%20Engagements%2C%20Notes%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Notes/Rollouts/321895/2026-09/notes.json",
+        "blobSha": "7a87454ece897e0fc0a5af9b04c89e26441c9a09",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Notes/Rollouts/321895/2026-09/notes.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Notes API Definition",
@@ -1522,22 +1633,23 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Object Library": {
       "group": "CRM",
       "api": "Object Library",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "196908",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Object Library/Rollouts/196908/v3/objectLibrary.json",
-        "blobSha": "3c1051d8a56c2039f04ac126510af0619252c9c4",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Object%20Library/Rollouts/196908/v3/objectLibrary.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Object Library/Rollouts/196908/v3/Collection Directory_Objects Library API/CRM - Objects Library API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Object%20Library/Rollouts/196908/v3/Collection%20Directory_Objects%20Library%20API/CRM%20-%20Objects%20Library%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Object Library/Rollouts/196908/2026-09/objectLibrary.json",
+        "blobSha": "510786e9c3f1da9c42733bf7fcafdefb23171c0c",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Object%20Library/Rollouts/196908/2026-09/objectLibrary.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Object Library API Definition",
@@ -1548,22 +1660,23 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Objects": {
       "group": "CRM",
       "api": "Objects",
-      "latestVersion": "2025-09",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "424",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Objects/Rollouts/424/2025-09/objects.json",
-        "blobSha": "6875b9cf30f5d7a1b192b2308e46ae1f2d7ebdd0",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Objects/Rollouts/424/2025-09/objects.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Objects/Rollouts/424/2025-09/CollectionDirectory_ObjectsAPIDBV/CRM - Objects DBV API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Objects/Rollouts/424/2025-09/CollectionDirectory_ObjectsAPIDBV/CRM%20-%20Objects%20DBV%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Objects/Rollouts/424/2026-09/objects.json",
+        "blobSha": "b751166762b433a1ffc1c163739890507a9d637d",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Objects/Rollouts/424/2026-09/objects.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Objects API Definition",
@@ -1574,22 +1687,25 @@
         "apiFolderId": "a431e95c-224f-41dd-94ca-ab1c694bbb31",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "2025-09"
       }
     },
     "CRM/Orders": {
       "group": "CRM",
       "api": "Orders",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Orders/Rollouts/424/v3/orders.json",
-        "blobSha": "ff826ce7930573d5c4f553291cdc2937558d54ba",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Orders/Rollouts/424/v3/orders.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Orders/Rollouts/424/v3/Collection Directory_Orders/CRM - Orders API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Orders/Rollouts/424/v3/Collection%20Directory_Orders/CRM%20-%20Orders%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Orders/Rollouts/321895/2026-09/orders.json",
+        "blobSha": "da74a38c344cea3a33c7b5d29bf584c76d1f81c5",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Orders/Rollouts/321895/2026-09/orders.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Orders API Definition",
@@ -1600,22 +1716,25 @@
         "apiFolderId": "d38e7984-be37-419f-b794-46a1ba2bfb8b",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Partner Clients": {
       "group": "CRM",
       "api": "Partner Clients",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Partner Clients/Rollouts/424/v3/partnerClients.json",
-        "blobSha": "e50a1cbf1e43d55b3ad5678aa4f7334b6a9202d7",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Partner%20Clients/Rollouts/424/v3/partnerClients.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Partner Clients/Rollouts/424/v3/CRM Partner Clients API Collection Directory/CRM - Partner Clients API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Partner%20Clients/Rollouts/424/v3/CRM%20Partner%20Clients%20API%20Collection%20Directory/CRM%20-%20Partner%20Clients%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Partner Clients/Rollouts/321895/2026-09/partnerClients.json",
+        "blobSha": "da1749d87e3840df66f5aa57491e5e70dd9fc6c4",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Partner%20Clients/Rollouts/321895/2026-09/partnerClients.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Partner Clients API Definition",
@@ -1626,22 +1745,25 @@
         "apiFolderId": "49c23a9a-b7d6-4e9a-8e03-d8fafb299f62",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Partner Services": {
       "group": "CRM",
       "api": "Partner Services",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Partner Services/Rollouts/424/v3/partnerServices.json",
-        "blobSha": "383f1930d3cd197efa2e00105aa81b181db66306",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Partner%20Services/Rollouts/424/v3/partnerServices.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Partner Services/Rollouts/424/v3/Collection Directory_v3 Partner Services/CRM - Partner Services API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Partner%20Services/Rollouts/424/v3/Collection%20Directory_v3%20Partner%20Services/CRM%20-%20Partner%20Services%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Partner Services/Rollouts/321895/2026-09/partnerServices.json",
+        "blobSha": "3e7e49a8f38412e3b92bf67568095c4d5d0ba95e",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Partner%20Services/Rollouts/321895/2026-09/partnerServices.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Partner Services API Definition",
@@ -1652,7 +1774,8 @@
         "apiFolderId": "d1fa95f7-6536-4971-b750-f53678856e73",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Payments": {
@@ -1678,22 +1801,25 @@
         "apiFolderId": "d3ed1bc3-8a40-45f9-8420-eec61e8d6633",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Pipelines": {
       "group": "CRM",
       "api": "Pipelines",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "145896",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Pipelines/Rollouts/145896/v3/pipelines.json",
-        "blobSha": "58e97140e62a8ec47f86a76f579c38655eab137b",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Pipelines/Rollouts/145896/v3/pipelines.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Pipelines/Rollouts/145896/v3/Collection Directory_Pipelines API/CRM - Pipelines API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Pipelines/Rollouts/145896/v3/Collection%20Directory_Pipelines%20API/CRM%20-%20Pipelines%20API%20Collection.json"
+        "rollout": "321972",
+        "otherRollouts": [
+          "145896"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Pipelines/Rollouts/321972/2026-09/pipelines.json",
+        "blobSha": "71d94d9e7f549b433f126ed430f41bd63c7bea0a",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Pipelines/Rollouts/321972/2026-09/pipelines.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Pipelines API Definition",
@@ -1704,22 +1830,25 @@
         "apiFolderId": "e3f98f93-b5c2-411a-a1c8-b8afb7bbdd93",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Postal Mail": {
       "group": "CRM",
       "api": "Postal Mail",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Postal Mail/Rollouts/424/v3/postalMail.json",
-        "blobSha": "6aa4d711727c24c7babe6aaff41508f7564f6ef6",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Postal%20Mail/Rollouts/424/v3/postalMail.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Postal Mail/Rollouts/424/v3/Collection Directory_PostalMail/CRM - Engagements, Postal Mail API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Postal%20Mail/Rollouts/424/v3/Collection%20Directory_PostalMail/CRM%20-%20Engagements%2C%20Postal%20Mail%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Postal Mail/Rollouts/321895/2026-09/postalMail.json",
+        "blobSha": "6ee29a31d530e1d83d9e5fefdb50d5f5833bc84f",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Postal%20Mail/Rollouts/321895/2026-09/postalMail.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Postal Mail API Definition",
@@ -1730,22 +1859,25 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Products": {
       "group": "CRM",
       "api": "Products",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Products/Rollouts/424/v3/products.json",
-        "blobSha": "a1c74828c6e93212600f5e3c179afbff658589bd",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Products/Rollouts/424/v3/products.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Products/Rollouts/424/v3/Collection Directory_Products/CRM - Products API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Products/Rollouts/424/v3/Collection%20Directory_Products/CRM%20-%20Products%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Products/Rollouts/321895/2026-09/products.json",
+        "blobSha": "0e52d7049f797308211dff101caabbd1f7ff8a33",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Products/Rollouts/321895/2026-09/products.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Products API Definition",
@@ -1756,22 +1888,23 @@
         "apiFolderId": "f29eb58e-a25f-4c80-8c01-6edc5b569033",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Projects": {
       "group": "CRM",
       "api": "Projects",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "260890",
+        "rollout": "321895",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Projects/Rollouts/260890/v3/projects.json",
-        "blobSha": "6099df4092d4d99f42b33d0a80e1d4c35c805633",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Projects/Rollouts/260890/v3/projects.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Projects/Rollouts/260890/v3/Collection Directory Projects API/CRM - Projects API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Projects/Rollouts/260890/v3/Collection%20Directory%20Projects%20API/CRM%20-%20Projects%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Projects/Rollouts/321895/2026-09/projects.json",
+        "blobSha": "0afa59aca1129195a3e95bce9f7e724a62b81973",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Projects/Rollouts/321895/2026-09/projects.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Projects API Definition",
@@ -1782,22 +1915,23 @@
         "apiFolderId": "7198ee43-9e14-485c-80ae-4ba6d323fe3c",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Properties": {
       "group": "CRM",
       "api": "Properties",
-      "latestVersion": "2025-09",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "145899",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Properties/Rollouts/145899/2025-09/properties.json",
-        "blobSha": "300094d07857071d590a8458e4739ffe1f054bc0",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Properties/Rollouts/145899/2025-09/properties.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Properties/Rollouts/145899/2025-09/CollectionDirectoryPropertiesAPIDBV/CRM - Properties DBV API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Properties/Rollouts/145899/2025-09/CollectionDirectoryPropertiesAPIDBV/CRM%20-%20Properties%20DBV%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Properties/Rollouts/145899/2026-09/properties.json",
+        "blobSha": "413c80d0114d14f5f537bffc7db4cc109db1bcbd",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Properties/Rollouts/145899/2026-09/properties.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Properties API Definition",
@@ -1808,22 +1942,23 @@
         "apiFolderId": "5db99871-09e2-4172-8f37-34e142c99d42",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "2025-09"
       }
     },
     "CRM/Property Validations": {
       "group": "CRM",
       "api": "Property Validations",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "215885",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Property Validations/Rollouts/215885/v3/propertyValidations.json",
-        "blobSha": "3addc2494479054926e8d9549e2c5f576239791e",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Property%20Validations/Rollouts/215885/v3/propertyValidations.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Property Validations/Rollouts/215885/v3/Property Validations API_Collection Directory/CRM - Property Validations API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Property%20Validations/Rollouts/215885/v3/Property%20Validations%20API_Collection%20Directory/CRM%20-%20Property%20Validations%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Property Validations/Rollouts/215885/2026-09/propertyValidations.json",
+        "blobSha": "1f3d0d0d5cf247a78746a06156d8312337448370",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Property%20Validations/Rollouts/215885/2026-09/propertyValidations.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Property Validations API Definition",
@@ -1834,22 +1969,23 @@
         "apiFolderId": "a517a5d1-5081-41bd-ac90-b6ad6793c8b2",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Public App Crm Cards": {
       "group": "CRM",
       "api": "Public App Crm Cards",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "147892",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Public App Crm Cards/Rollouts/147892/v3/publicAppCrmCards.json",
-        "blobSha": "3f5fee851a79cfeac74525692b3ca4a73a88a863",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Public%20App%20Crm%20Cards/Rollouts/147892/v3/publicAppCrmCards.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Public App Crm Cards/Rollouts/147892/v3/Collection Directory_CRMCards/CRM - CRM Cards API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Public%20App%20Crm%20Cards/Rollouts/147892/v3/Collection%20Directory_CRMCards/CRM%20-%20CRM%20Cards%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Public App Crm Cards/Rollouts/147892/2026-09/publicAppCrmCards.json",
+        "blobSha": "6741979f5f66169ce876c0200e31e6f2e9975df5",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Public%20App%20Crm%20Cards/Rollouts/147892/2026-09/publicAppCrmCards.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Public App Crm Cards API Definition",
@@ -1860,22 +1996,23 @@
         "apiFolderId": "d2af61b2-b7d8-4a36-bead-cb5ec202e76f",
         "versionFolderName": "V3",
         "versionFolderId": "3851d061-d6f8-46df-9f36-13239c0d988b",
-        "bindingLevel": "version"
+        "bindingLevel": "version",
+        "boundVersion": "v3"
       }
     },
     "CRM/Public App Feature Flags V3": {
       "group": "CRM",
       "api": "Public App Feature Flags V3",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "195919",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Public App Feature Flags V3/Rollouts/195919/v3/publicAppFeatureFlagsV3.json",
-        "blobSha": "1f2282987984734b4a5b2d89be1a31c336ed080a",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Public%20App%20Feature%20Flags%20V3/Rollouts/195919/v3/publicAppFeatureFlagsV3.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Public App Feature Flags V3/Rollouts/195919/v3/Collection Directory_Feature Flags API/CRM - Feature Flags API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Public%20App%20Feature%20Flags%20V3/Rollouts/195919/v3/Collection%20Directory_Feature%20Flags%20API/CRM%20-%20Feature%20Flags%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Public App Feature Flags V3/Rollouts/195919/2026-09/publicAppFeatureFlagsV3.json",
+        "blobSha": "2020bbef309dff3f5320275de24d0e4cbbe98b93",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Public%20App%20Feature%20Flags%20V3/Rollouts/195919/2026-09/publicAppFeatureFlagsV3.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Public App Feature Flags V3 API Definition",
@@ -1886,22 +2023,25 @@
         "apiFolderId": "2afd23b8-ce1d-4f91-8421-c539e1e568e6",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Quotes": {
       "group": "CRM",
       "api": "Quotes",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Quotes/Rollouts/424/v3/quotes.json",
-        "blobSha": "9236c1cc6ab2db61e026154ee4604c0ac7800578",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Quotes/Rollouts/424/v3/quotes.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Quotes/Rollouts/424/v3/Collection Directory_Quotes/CRM - Quotes API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Quotes/Rollouts/424/v3/Collection%20Directory_Quotes/CRM%20-%20Quotes%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Quotes/Rollouts/321895/2026-09/quotes.json",
+        "blobSha": "e105b54bb68175e2553093cb8cf0c490e237bf60",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Quotes/Rollouts/321895/2026-09/quotes.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Quotes API Definition",
@@ -1912,22 +2052,23 @@
         "apiFolderId": "1a40dfa6-5213-47af-81aa-d1f3628e40d3",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Schemas": {
       "group": "CRM",
       "api": "Schemas",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "145900",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Schemas/Rollouts/145900/v3/schemas.json",
-        "blobSha": "7d5004e6f7450ce9d28f008e95445c4dc5774801",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Schemas/Rollouts/145900/v3/schemas.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Schemas/Rollouts/145900/v3/Collection Directory_Schemas API/CRM - Schemas API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Schemas/Rollouts/145900/v3/Collection%20Directory_Schemas%20API/CRM%20-%20Schemas%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Schemas/Rollouts/145900/2026-09/schemas.json",
+        "blobSha": "97b017e26fbb1646106dbe1841cac6e7e4d8746a",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Schemas/Rollouts/145900/2026-09/schemas.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Schemas API Definition",
@@ -1938,22 +2079,25 @@
         "apiFolderId": "c137e687-04e7-4d87-a47b-49233fa8bb04",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Services": {
       "group": "CRM",
       "api": "Services",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Services/Rollouts/424/v3/services.json",
-        "blobSha": "6654c43198dc5c5606478513362d8732dc4cdd29",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Services/Rollouts/424/v3/services.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Services/Rollouts/424/v3/Collection Directory Services API/CRM - Services API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Services/Rollouts/424/v3/Collection%20Directory%20Services%20API/CRM%20-%20Services%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Services/Rollouts/321895/2026-09/services.json",
+        "blobSha": "13f159e2d2316703bd0aec748de25105af44f6de",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Services/Rollouts/321895/2026-09/services.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Services API Definition",
@@ -1964,22 +2108,25 @@
         "apiFolderId": "314dd66e-522a-4334-9093-118516f14d20",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Tasks": {
       "group": "CRM",
       "api": "Tasks",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Tasks/Rollouts/424/v3/tasks.json",
-        "blobSha": "c650b9e8ab2c8c34af7ddf49741b8ac10d580ec3",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Tasks/Rollouts/424/v3/tasks.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Tasks/Rollouts/424/v3/Collection Directory_Tasks/CRM - Engagements, Tasks API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Tasks/Rollouts/424/v3/Collection%20Directory_Tasks/CRM%20-%20Engagements%2C%20Tasks%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Tasks/Rollouts/321895/2026-09/tasks.json",
+        "blobSha": "cc4f78660b07e9ceb98af83000bdcc9161c309f6",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Tasks/Rollouts/321895/2026-09/tasks.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Tasks API Definition",
@@ -1990,22 +2137,25 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Taxes": {
       "group": "CRM",
       "api": "Taxes",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Taxes/Rollouts/424/v3/taxes.json",
-        "blobSha": "db3e464a7683fc9cafc0a9e9686b360e02374809",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Taxes/Rollouts/424/v3/taxes.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Taxes/Rollouts/424/v3/Collection Directory_Taxes/CRM - Taxes API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Taxes/Rollouts/424/v3/Collection%20Directory_Taxes/CRM%20-%20Taxes%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Taxes/Rollouts/321895/2026-09/taxes.json",
+        "blobSha": "927776b8a6a24d7e3ee567801f3693d3882e3eea",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Taxes/Rollouts/321895/2026-09/taxes.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Taxes API Definition",
@@ -2016,22 +2166,25 @@
         "apiFolderId": "7289bc0c-cff2-446c-97b9-f9e8212b1c06",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Tickets": {
       "group": "CRM",
       "api": "Tickets",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Tickets/Rollouts/424/v3/tickets.json",
-        "blobSha": "c06f99a73601e1fb3fa920f46723c4e2d8118843",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Tickets/Rollouts/424/v3/tickets.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Tickets/Rollouts/424/v3/Collection Directory_Tickets/CRM - Tickets API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Tickets/Rollouts/424/v3/Collection%20Directory_Tickets/CRM%20-%20Tickets%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Tickets/Rollouts/321895/2026-09/tickets.json",
+        "blobSha": "024814a79d7fe1f7d060c3ef02000e3818713d5c",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Tickets/Rollouts/321895/2026-09/tickets.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Tickets API Definition",
@@ -2042,22 +2195,23 @@
         "apiFolderId": "9e523161-1e1a-4564-b1b1-ceda52e7f7da",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "CRM/Timeline": {
       "group": "CRM",
       "api": "Timeline",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "147898",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Timeline/Rollouts/147898/v3/timeline.json",
-        "blobSha": "c5421ac683ec6a4cd21fbbafd27470c3bc0a6998",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Timeline/Rollouts/147898/v3/timeline.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Timeline/Rollouts/147898/v3/Collection Directory Timeline API/Extend CRM - Timeline API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Timeline/Rollouts/147898/v3/Collection%20Directory%20Timeline%20API/Extend%20CRM%20-%20Timeline%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Timeline/Rollouts/147898/2026-09/timeline.json",
+        "blobSha": "464c72a5f6c5f8b1322b2e594305b08d7be1974c",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Timeline/Rollouts/147898/2026-09/timeline.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Timeline API Definition",
@@ -2068,22 +2222,25 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Users": {
       "group": "CRM",
       "api": "Users",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "424",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Users/Rollouts/424/v3/users.json",
-        "blobSha": "6b3cf91fe930ee9bbd5f625a721bfd08519f6d67",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Users/Rollouts/424/v3/users.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Users/Rollouts/424/v3/Collection Directory_Users/Settings - Users API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Users/Rollouts/424/v3/Collection%20Directory_Users/Settings%20-%20Users%20API%20Collection.json"
+        "rollout": "321895",
+        "otherRollouts": [
+          "424"
+        ],
+        "specPath": "PublicApiSpecs/CRM/Users/Rollouts/321895/2026-09/users.json",
+        "blobSha": "d0f0def7d2947993352ba6fd386a3b2c059c845b",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Users/Rollouts/321895/2026-09/users.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Users API Definition",
@@ -2094,22 +2251,23 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "CRM/Video Conferencing Extension": {
       "group": "CRM",
       "api": "Video Conferencing Extension",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "148903",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/CRM/Video Conferencing Extension/Rollouts/148903/v3/videoConferencingExtension.json",
-        "blobSha": "9a2fa2d1a9abe3e081e6947131ccc9464f432cf0",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Video%20Conferencing%20Extension/Rollouts/148903/v3/videoConferencingExtension.json",
-        "curatedCollectionPath": "PublicApiSpecs/CRM/Video Conferencing Extension/Rollouts/148903/v3/Collection Directory_VideoConfExt/Extend CRM - Video Conference Ext API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Video%20Conferencing%20Extension/Rollouts/148903/v3/Collection%20Directory_VideoConfExt/Extend%20CRM%20-%20Video%20Conference%20Ext%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/CRM/Video Conferencing Extension/Rollouts/148903/2026-09/videoConferencingExtension.json",
+        "blobSha": "3640b7497b6aaee8fc27c08a9fe3cbbe60ffd5f7",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Video%20Conferencing%20Extension/Rollouts/148903/2026-09/videoConferencingExtension.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "CRM - Video Conferencing Extension API Definition",
@@ -2120,22 +2278,23 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "Events/Events": {
       "group": "Events",
       "api": "Events",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "147897",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Events/Events/Rollouts/147897/v3/events.json",
-        "blobSha": "5d347c6092f580a4c2ee4dfc601437ee3dd5bc7d",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Events/Events/Rollouts/147897/v3/events.json",
-        "curatedCollectionPath": "PublicApiSpecs/Events/Events/Rollouts/147897/v3/CollectionDirectory_EventsAPI/Analytics & Events - Events API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Events/Events/Rollouts/147897/v3/CollectionDirectory_EventsAPI/Analytics%20%26%20Events%20-%20Events%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/Events/Events/Rollouts/147897/2026-09/events.json",
+        "blobSha": "d897f4af0e42a38bfc6ba69f238ac7388044f834",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Events/Events/Rollouts/147897/2026-09/events.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Events - Events API Definition",
@@ -2146,22 +2305,25 @@
         "apiFolderId": "1bf19531-b7be-428c-a84b-1cdc8ab62350",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "Events/Manage Event Definitions": {
       "group": "Events",
       "api": "Manage Event Definitions",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "138888",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Events/Manage Event Definitions/Rollouts/138888/v3/manageEventDefinitions.json",
-        "blobSha": "40729f4fe3b4c41559344c2f806e3043996e8793",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Events/Manage%20Event%20Definitions/Rollouts/138888/v3/manageEventDefinitions.json",
-        "curatedCollectionPath": "PublicApiSpecs/Events/Manage Event Definitions/Rollouts/138888/v3/Collection Directory_CustomEventDefinition/Analytics & Events - Custom Event Definitions API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Events/Manage%20Event%20Definitions/Rollouts/138888/v3/Collection%20Directory_CustomEventDefinition/Analytics%20%26%20Events%20-%20Custom%20Event%20Definitions%20API%20Collection.json"
+        "rollout": "333895",
+        "otherRollouts": [
+          "138888"
+        ],
+        "specPath": "PublicApiSpecs/Events/Manage Event Definitions/Rollouts/333895/2026-09/manageEventDefinitions.json",
+        "blobSha": "a5e82b5860a777743e3dbc484231e83f86488cb7",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Events/Manage%20Event%20Definitions/Rollouts/333895/2026-09/manageEventDefinitions.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Events - Manage Event Definitions API Definition",
@@ -2172,22 +2334,23 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "Events/Send Event Completions": {
       "group": "Events",
       "api": "Send Event Completions",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "669",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Events/Send Event Completions/Rollouts/669/v3/sendEventCompletions.json",
-        "blobSha": "3c9c2df1093d86f2d3baa50aeca647277532685a",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Events/Send%20Event%20Completions/Rollouts/669/v3/sendEventCompletions.json",
-        "curatedCollectionPath": "PublicApiSpecs/Events/Send Event Completions/Rollouts/669/v3/Collection Directory_CustomBehavEvents/Custom Behavioral Events API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Events/Send%20Event%20Completions/Rollouts/669/v3/Collection%20Directory_CustomBehavEvents/Custom%20Behavioral%20Events%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/Events/Send Event Completions/Rollouts/669/2026-09/sendEventCompletions.json",
+        "blobSha": "91acc795fc3dc6b156e25a98bed826db633f45c5",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Events/Send%20Event%20Completions/Rollouts/669/2026-09/sendEventCompletions.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Events - Send Event Completions API Definition",
@@ -2198,22 +2361,25 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "Marketing/Campaigns Public Api": {
       "group": "Marketing",
       "api": "Campaigns Public Api",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "177944",
-        "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Marketing/Campaigns Public Api/Rollouts/177944/v3/campaignsPublicApi.json",
-        "blobSha": "4e790bf0dafb7d1dcd189116f2cfceeb28c7540f",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Campaigns%20Public%20Api/Rollouts/177944/v3/campaignsPublicApi.json",
-        "curatedCollectionPath": "PublicApiSpecs/Marketing/Campaigns Public Api/Rollouts/177944/v3/Collection Directory_Campaigns API/Marketing - Campaigns API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Campaigns%20Public%20Api/Rollouts/177944/v3/Collection%20Directory_Campaigns%20API/Marketing%20-%20Campaigns%20API%20Collection.json"
+        "rollout": "310984",
+        "otherRollouts": [
+          "177944"
+        ],
+        "specPath": "PublicApiSpecs/Marketing/Campaigns Public Api/Rollouts/310984/2026-09/campaignsPublicApi.json",
+        "blobSha": "e9c7a3e7ccbbb9186b2be17d6cb17ba96877003b",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Campaigns%20Public%20Api/Rollouts/310984/2026-09/campaignsPublicApi.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Marketing - Campaigns Public Api API Definition",
@@ -2224,7 +2390,8 @@
         "apiFolderId": "aef6c5a7-8646-4863-b3d0-5404b687f204",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "Marketing/Forms": {
@@ -2236,10 +2403,10 @@
         "rollout": "144909",
         "otherRollouts": [],
         "specPath": "PublicApiSpecs/Marketing/Forms/Rollouts/144909/v3/forms.json",
-        "blobSha": "bbfcc2269dcf04ddd0785cef66e1959110889833",
+        "blobSha": "35b0f2e5d9f328d3cb7966945881065f9bdbda44",
         "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Forms/Rollouts/144909/v3/forms.json",
-        "curatedCollectionPath": "PublicApiSpecs/Marketing/Forms/Rollouts/144909/v3/Collection Directory_Marketing Forms API/Marketing - Forms API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Forms/Rollouts/144909/v3/Collection%20Directory_Marketing%20Forms%20API/Marketing%20-%20Forms%20API%20Collection.json"
+        "curatedCollectionPath": "blicApiSpecs/Marketing/Forms/Rollouts/144909/v3/Collection Directory_Marketing Forms API/Marketing - Forms API Collection.json",
+        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/blicApiSpecs/Marketing/Forms/Rollouts/144909/v3/Collection%20Directory_Marketing%20Forms%20API/Marketing%20-%20Forms%20API%20Collection.json"
       },
       "postman": {
         "specName": "Marketing - Forms API Definition",
@@ -2250,22 +2417,23 @@
         "apiFolderId": "7fddb551-8546-4ca4-a488-f84af65c85c1",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "Marketing/Marketing Emails": {
       "group": "Marketing",
       "api": "Marketing Emails",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "145892",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Marketing/Marketing Emails/Rollouts/145892/v3/marketingEmails.json",
-        "blobSha": "b9c021fa222f26d92bf71ccb3430916b93cbc91f",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Marketing%20Emails/Rollouts/145892/v3/marketingEmails.json",
-        "curatedCollectionPath": "PublicApiSpecs/Marketing/Marketing Emails/Rollouts/145892/v3/Collection Directory_MktgEmails/Marketing - Marketing Emails API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Marketing%20Emails/Rollouts/145892/v3/Collection%20Directory_MktgEmails/Marketing%20-%20Marketing%20Emails%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/Marketing/Marketing Emails/Rollouts/145892/2026-09/marketingEmails.json",
+        "blobSha": "3474de3853c2286cc3f07dcf9371d83e57dba14a",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Marketing%20Emails/Rollouts/145892/2026-09/marketingEmails.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Marketing - Marketing Emails API Definition",
@@ -2276,7 +2444,8 @@
         "apiFolderId": "65bddadd-18ad-46e0-9af1-6e01ddd066e7",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "Marketing/Marketing Emails V3": {
@@ -2302,22 +2471,23 @@
         "apiFolderId": "65bddadd-18ad-46e0-9af1-6e01ddd066e7",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "Marketing/Marketing Events": {
       "group": "Marketing",
       "api": "Marketing Events",
-      "latestVersion": "2026-03",
-      "selectionReason": "published-latest",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "129888",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Marketing/Marketing Events/Rollouts/129888/2026-03/marketingEvents.json",
-        "blobSha": "1d7474f05974b4df456d08c38377b034127e925b",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Marketing%20Events/Rollouts/129888/2026-03/marketingEvents.json",
-        "curatedCollectionPath": "PublicApiSpecs/Marketing/Marketing Events/Rollouts/129888/2026-03/Collection Directory_Marketing Events 2026-03/Marketing - Marketing Events API Collection 2026-03.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Marketing%20Events/Rollouts/129888/2026-03/Collection%20Directory_Marketing%20Events%202026-03/Marketing%20-%20Marketing%20Events%20API%20Collection%202026-03.json"
+        "specPath": "PublicApiSpecs/Marketing/Marketing Events/Rollouts/129888/2026-09/marketingEvents.json",
+        "blobSha": "79c75fb0e7a36d2194a48b1aace593b280cae451",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Marketing%20Events/Rollouts/129888/2026-09/marketingEvents.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Marketing - Marketing Events API Definition",
@@ -2328,22 +2498,23 @@
         "apiFolderId": "3a35d464-c4e8-4d84-b601-403834de1d89",
         "versionFolderName": "2026-03 [latest]",
         "versionFolderId": "4727d1ea-be86-4870-be29-81ea10299476",
-        "bindingLevel": "version"
+        "bindingLevel": "version",
+        "boundVersion": "2026-03"
       }
     },
     "Marketing/Single-send": {
       "group": "Marketing",
       "api": "Single-send",
-      "latestVersion": "v4",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "106894",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Marketing/Single-send/Rollouts/106894/v4/singlesend.json",
-        "blobSha": "a61c2347015d5766c4ab5b8aebe3507a55b38b76",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Single-send/Rollouts/106894/v4/singlesend.json",
-        "curatedCollectionPath": "PublicApiSpecs/Marketing/Single-send/Rollouts/106894/v4/Collection Directory_Single-Send/Marketing - Single-Send API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Single-send/Rollouts/106894/v4/Collection%20Directory_Single-Send/Marketing%20-%20Single-Send%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/Marketing/Single-send/Rollouts/106894/2026-09/singlesend.json",
+        "blobSha": "b8e1768e18a1e07ba5b80769bd26f42c015e6f62",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Single-send/Rollouts/106894/2026-09/singlesend.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Marketing - Single-send API Definition",
@@ -2354,22 +2525,23 @@
         "apiFolderId": "6553d167-3550-48d8-b8c6-fbc31dd94771",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v4"
       }
     },
     "Marketing/Transactional Single Send": {
       "group": "Marketing",
       "api": "Transactional Single Send",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "140892",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Marketing/Transactional Single Send/Rollouts/140892/v3/transactionalSingleSend.json",
-        "blobSha": "380a1d6bb39d0dc47312be8ce82e354bc0c5280b",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Transactional%20Single%20Send/Rollouts/140892/v3/transactionalSingleSend.json",
-        "curatedCollectionPath": "PublicApiSpecs/Marketing/Transactional Single Send/Rollouts/140892/v3/Collection Directory_TransactSingleSend/Marketing - Transactional Email API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Transactional%20Single%20Send/Rollouts/140892/v3/Collection%20Directory_TransactSingleSend/Marketing%20-%20Transactional%20Email%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/Marketing/Transactional Single Send/Rollouts/140892/2026-09/transactionalSingleSend.json",
+        "blobSha": "ff8b41db8e8c4bf43dccd931ff4eaf645eb16ede",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Marketing/Transactional%20Single%20Send/Rollouts/140892/2026-09/transactionalSingleSend.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Marketing - Transactional Single Send API Definition",
@@ -2380,22 +2552,23 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "Settings/Multicurrency": {
       "group": "Settings",
       "api": "Multicurrency",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "145897",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Settings/Multicurrency/Rollouts/145897/v3/multicurrency.json",
-        "blobSha": "59eb9f41a4fa72a69a62dc1c8f1b2d6af89d5732",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Settings/Multicurrency/Rollouts/145897/v3/multicurrency.json",
-        "curatedCollectionPath": "PublicApiSpecs/Settings/Multicurrency/Rollouts/145897/v3/Collection Directory_Currencies/Settings - Currencies API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Settings/Multicurrency/Rollouts/145897/v3/Collection%20Directory_Currencies/Settings%20-%20Currencies%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/Settings/Multicurrency/Rollouts/145897/2026-09/multicurrency.json",
+        "blobSha": "e6eed536507e4ee908018904734d92f81242e5ce",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Settings/Multicurrency/Rollouts/145897/2026-09/multicurrency.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Settings - Multicurrency API Definition",
@@ -2406,22 +2579,23 @@
         "apiFolderId": null,
         "versionFolderName": "v3",
         "versionFolderId": null,
-        "bindingLevel": null
+        "bindingLevel": null,
+        "boundVersion": null
       }
     },
     "Settings/Tax Rates": {
       "group": "Settings",
       "api": "Tax Rates",
-      "latestVersion": "v1",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "207908",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Settings/Tax Rates/Rollouts/207908/v1/taxRates.json",
-        "blobSha": "d65ee6a86e7ffce26741f3dccdb83b615ff5751f",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Settings/Tax%20Rates/Rollouts/207908/v1/taxRates.json",
-        "curatedCollectionPath": "PublicApiSpecs/Settings/Tax Rates/Rollouts/207908/v1/Collection Directory_Tax Rates API/Settings - Tax Rates API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Settings/Tax%20Rates/Rollouts/207908/v1/Collection%20Directory_Tax%20Rates%20API/Settings%20-%20Tax%20Rates%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/Settings/Tax Rates/Rollouts/207908/2026-09/taxRates.json",
+        "blobSha": "643432ea9294fe285075a950027e748decd8104d",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Settings/Tax%20Rates/Rollouts/207908/2026-09/taxRates.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Settings - Tax Rates API Definition",
@@ -2432,22 +2606,23 @@
         "apiFolderId": "ef9c02dd-9ff5-470c-846c-c344b245780c",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v1"
       }
     },
     "Settings/User Provisioning": {
       "group": "Settings",
       "api": "User Provisioning",
-      "latestVersion": "v3",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
-        "rollout": "144927",
+        "rollout": "325901",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Settings/User Provisioning/Rollouts/144927/v3/userProvisioning.json",
-        "blobSha": "f97b43b27acf2ddccf739677b2260c08e80afbcf",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Settings/User%20Provisioning/Rollouts/144927/v3/userProvisioning.json",
-        "curatedCollectionPath": "PublicApiSpecs/Settings/User Provisioning/Rollouts/144927/v3/Collection Directory_UserProv/Settings - User Provisioning API Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Settings/User%20Provisioning/Rollouts/144927/v3/Collection%20Directory_UserProv/Settings%20-%20User%20Provisioning%20API%20Collection.json"
+        "specPath": "PublicApiSpecs/Settings/User Provisioning/Rollouts/325901/2026-09/userProvisioning.json",
+        "blobSha": "f03c8a83cfbc44c2bf27049b90ce34f8d4d35ea5",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Settings/User%20Provisioning/Rollouts/325901/2026-09/userProvisioning.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Settings - User Provisioning API Definition",
@@ -2458,22 +2633,23 @@
         "apiFolderId": "658f263e-2278-478c-ba95-673596adf710",
         "versionFolderName": null,
         "versionFolderId": null,
-        "bindingLevel": "api"
+        "bindingLevel": "api",
+        "boundVersion": "v3"
       }
     },
     "Webhooks/Webhooks": {
       "group": "Webhooks",
       "api": "Webhooks",
-      "latestVersion": "2026-03",
-      "selectionReason": "published-latest",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "147891",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Webhooks/Webhooks/Rollouts/147891/2026-03/webhooks.json",
-        "blobSha": "17e8c8220e63aa3e0aa8035eb76294a8fb148fcd",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Webhooks/Webhooks/Rollouts/147891/2026-03/webhooks.json",
-        "curatedCollectionPath": "PublicApiSpecs/Webhooks/Webhooks/Rollouts/147891/2026-03/Collection Directory Webhooks 2026-03/Webhooks - Webhooks API 2026-03 Collection.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Webhooks/Webhooks/Rollouts/147891/2026-03/Collection%20Directory%20Webhooks%202026-03/Webhooks%20-%20Webhooks%20API%202026-03%20Collection.json"
+        "specPath": "PublicApiSpecs/Webhooks/Webhooks/Rollouts/147891/2026-09/webhooks.json",
+        "blobSha": "c67a1be9474ecaaca6576f1ea9ef21db7b99ae89",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Webhooks/Webhooks/Rollouts/147891/2026-09/webhooks.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Webhooks - Webhooks API Definition",
@@ -2484,22 +2660,23 @@
         "apiFolderId": "b70d192e-0504-4507-8b3e-041abeb93a5b",
         "versionFolderName": "2026-03 [latest]",
         "versionFolderId": "0f6c4ed5-6419-4f79-827e-11bddd86bdf3",
-        "bindingLevel": "version"
+        "bindingLevel": "version",
+        "boundVersion": "2026-03"
       }
     },
     "Webhooks Journal/Webhooks Journal": {
       "group": "Webhooks Journal",
       "api": "Webhooks Journal",
-      "latestVersion": "2026-03",
-      "selectionReason": "repo-curated",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
       "repo": {
         "rollout": "284944",
         "otherRollouts": [],
-        "specPath": "PublicApiSpecs/Webhooks Journal/Webhooks Journal/Rollouts/284944/2026-03/webhooksJournal.json",
-        "blobSha": "811e6cb0fe4438bcf8bbe42c0748d64ceb4eb059",
-        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Webhooks%20Journal/Webhooks%20Journal/Rollouts/284944/2026-03/webhooksJournal.json",
-        "curatedCollectionPath": "PublicApiSpecs/Webhooks Journal/Webhooks Journal/Rollouts/284944/2026-03/Collection Directory_Webhooks Journal API/Webhooks - Webhooks Journal API Collection 2026-03.json",
-        "curatedCollectionUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Webhooks%20Journal/Webhooks%20Journal/Rollouts/284944/2026-03/Collection%20Directory_Webhooks%20Journal%20API/Webhooks%20-%20Webhooks%20Journal%20API%20Collection%202026-03.json"
+        "specPath": "PublicApiSpecs/Webhooks Journal/Webhooks Journal/Rollouts/284944/2026-09/webhooksJournal.json",
+        "blobSha": "bee2ff37074ec31d5012caf1688bfd0d2df718d1",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Webhooks%20Journal/Webhooks%20Journal/Rollouts/284944/2026-09/webhooksJournal.json",
+        "curatedCollectionPath": null,
+        "curatedCollectionUrl": null
       },
       "postman": {
         "specName": "Webhooks Journal - Webhooks Journal API Definition",
@@ -2510,8 +2687,357 @@
         "apiFolderId": "26126890-6698166f-e252-432e-a560-f0bfdbc78ee0",
         "versionFolderName": "2026-03 [latest]",
         "versionFolderId": "26126890-065f8aaf-66cf-4441-919b-6fb83311dd01",
-        "bindingLevel": "version"
+        "bindingLevel": "version",
+        "boundVersion": "2026-03"
       }
+    },
+    "Automation/Email Templates": {
+      "group": "Automation",
+      "api": "Email Templates",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
+      "repo": {
+        "rollout": "321889",
+        "otherRollouts": [],
+        "specPath": "PublicApiSpecs/Automation/Email Templates/Rollouts/321889/2026-09/emailTemplates.json",
+        "blobSha": "970bccc195680dc4e9731f866c6ca17c1ea74753",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Automation/Email%20Templates/Rollouts/321889/2026-09/emailTemplates.json",
+        "curatedCollectionPath": null
+      },
+      "postman": {
+        "specName": "Automation - Email Templates API Definition",
+        "specId": "0fd81685-888d-4bb6-abba-e19c7245e422",
+        "groupingCollection": null,
+        "groupingCollectionUid": null,
+        "apiFolderName": null,
+        "apiFolderId": null,
+        "versionFolderName": null,
+        "versionFolderId": null,
+        "bindingLevel": null,
+        "boundVersion": null,
+        "collectionPending": true
+      },
+      "createdBy": "phase2-sync",
+      "createdAt": "2026-11-20T16:05:09.239Z"
+    },
+    "Commerce/Payment Links": {
+      "group": "Commerce",
+      "api": "Payment Links",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
+      "repo": {
+        "rollout": "310885",
+        "otherRollouts": [],
+        "specPath": "PublicApiSpecs/Commerce/Payment Links/Rollouts/310885/2026-09/paymentLinks.json",
+        "blobSha": "613fd5f52fc6515d8525f4215c2767bd8e6d2c86",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Commerce/Payment%20Links/Rollouts/310885/2026-09/paymentLinks.json",
+        "curatedCollectionPath": null
+      },
+      "postman": {
+        "specName": "Commerce - Payment Links API Definition",
+        "specId": "a3aba509-3810-4581-9869-ac18651b11d2",
+        "groupingCollection": null,
+        "groupingCollectionUid": null,
+        "apiFolderName": null,
+        "apiFolderId": null,
+        "versionFolderName": null,
+        "versionFolderId": null,
+        "bindingLevel": null,
+        "boundVersion": null,
+        "collectionPending": true
+      },
+      "createdBy": "phase2-sync",
+      "createdAt": "2026-11-20T16:05:09.546Z"
+    },
+    "Commerce/Paymentsaccounts": {
+      "group": "Commerce",
+      "api": "Paymentsaccounts",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
+      "repo": {
+        "rollout": "320893",
+        "otherRollouts": [],
+        "specPath": "PublicApiSpecs/Commerce/Paymentsaccounts/Rollouts/320893/2026-09/paymentsaccounts.json",
+        "blobSha": "c111bfd07a1e5df9a2899dca588f2fb46564ab1c",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Commerce/Paymentsaccounts/Rollouts/320893/2026-09/paymentsaccounts.json",
+        "curatedCollectionPath": null
+      },
+      "postman": {
+        "specName": "Commerce - Paymentsaccounts API Definition",
+        "specId": "418d7835-3b78-4f1a-b978-47c97a090fcd",
+        "groupingCollection": null,
+        "groupingCollectionUid": null,
+        "apiFolderName": null,
+        "apiFolderId": null,
+        "versionFolderName": null,
+        "versionFolderId": null,
+        "bindingLevel": null,
+        "boundVersion": null,
+        "collectionPending": true
+      },
+      "createdBy": "phase2-sync",
+      "createdAt": "2026-11-20T16:05:09.796Z"
+    },
+    "Commerce/Price Books": {
+      "group": "Commerce",
+      "api": "Price Books",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
+      "repo": {
+        "rollout": "310989",
+        "otherRollouts": [],
+        "specPath": "PublicApiSpecs/Commerce/Price Books/Rollouts/310989/2026-09/priceBooks.json",
+        "blobSha": "03146b49ef14023296f4cbbc42cef7614cf29024",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Commerce/Price%20Books/Rollouts/310989/2026-09/priceBooks.json",
+        "curatedCollectionPath": null
+      },
+      "postman": {
+        "specName": "Commerce - Price Books API Definition",
+        "specId": "71a00f9c-4adc-4168-8305-6a94a883b5c6",
+        "groupingCollection": null,
+        "groupingCollectionUid": null,
+        "apiFolderName": null,
+        "apiFolderId": null,
+        "versionFolderName": null,
+        "versionFolderId": null,
+        "bindingLevel": null,
+        "boundVersion": null,
+        "collectionPending": true
+      },
+      "createdBy": "phase2-sync",
+      "createdAt": "2026-11-20T16:05:10.053Z"
+    },
+    "CRM/Forecast Submissions": {
+      "group": "CRM",
+      "api": "Forecast Submissions",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
+      "repo": {
+        "rollout": "260892",
+        "otherRollouts": [],
+        "specPath": "PublicApiSpecs/CRM/Forecast Submissions/Rollouts/260892/2026-09/forecastSubmissions.json",
+        "blobSha": "91763c6f70d9bd0f638d99d69de66a1a6fe4a80c",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Forecast%20Submissions/Rollouts/260892/2026-09/forecastSubmissions.json",
+        "curatedCollectionPath": null
+      },
+      "postman": {
+        "specName": "CRM - Forecast Submissions API Definition",
+        "specId": "5c5ad93e-d862-461b-8558-379039a055c9",
+        "groupingCollection": null,
+        "groupingCollectionUid": null,
+        "apiFolderName": null,
+        "apiFolderId": null,
+        "versionFolderName": null,
+        "versionFolderId": null,
+        "bindingLevel": null,
+        "boundVersion": null,
+        "collectionPending": true
+      },
+      "createdBy": "phase2-sync",
+      "createdAt": "2026-11-20T16:05:10.338Z"
+    },
+    "CRM/Notetaker Conversation Recap": {
+      "group": "CRM",
+      "api": "Notetaker Conversation Recap",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
+      "repo": {
+        "rollout": "321956",
+        "otherRollouts": [],
+        "specPath": "PublicApiSpecs/CRM/Notetaker Conversation Recap/Rollouts/321956/2026-09/notetakerConversationRecap.json",
+        "blobSha": "647785e5b1217ebd86f219f5581cfd6352b0a45b",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Notetaker%20Conversation%20Recap/Rollouts/321956/2026-09/notetakerConversationRecap.json",
+        "curatedCollectionPath": null
+      },
+      "postman": {
+        "specName": "CRM - Notetaker Conversation Recap API Definition",
+        "specId": "b0f6309e-df59-43cf-bdc9-08e5b0a03eca",
+        "groupingCollection": null,
+        "groupingCollectionUid": null,
+        "apiFolderName": null,
+        "apiFolderId": null,
+        "versionFolderName": null,
+        "versionFolderId": null,
+        "bindingLevel": null,
+        "boundVersion": null,
+        "collectionPending": true
+      },
+      "createdBy": "phase2-sync",
+      "createdAt": "2026-11-20T16:05:10.587Z"
+    },
+    "CRM/Object Tags": {
+      "group": "CRM",
+      "api": "Object Tags",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
+      "repo": {
+        "rollout": "320931",
+        "otherRollouts": [],
+        "specPath": "PublicApiSpecs/CRM/Object Tags/Rollouts/320931/2026-09/objectTags.json",
+        "blobSha": "dc3476c06f11ebee1ff1cd5bea6003a7a1454485",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Object%20Tags/Rollouts/320931/2026-09/objectTags.json",
+        "curatedCollectionPath": null
+      },
+      "postman": {
+        "specName": "CRM - Object Tags API Definition",
+        "specId": "7445d70d-d9f9-4748-9982-b58ef4779125",
+        "groupingCollection": null,
+        "groupingCollectionUid": null,
+        "apiFolderName": null,
+        "apiFolderId": null,
+        "versionFolderName": null,
+        "versionFolderId": null,
+        "bindingLevel": null,
+        "boundVersion": null,
+        "collectionPending": true
+      },
+      "createdBy": "phase2-sync",
+      "createdAt": "2026-11-20T16:05:11.039Z"
+    },
+    "CRM/Pipeline Governance": {
+      "group": "CRM",
+      "api": "Pipeline Governance",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
+      "repo": {
+        "rollout": "320924",
+        "otherRollouts": [],
+        "specPath": "PublicApiSpecs/CRM/Pipeline Governance/Rollouts/320924/2026-09/pipelineGovernance.json",
+        "blobSha": "4f018c18016898580faa756e1ba3c799190cb041",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Pipeline%20Governance/Rollouts/320924/2026-09/pipelineGovernance.json",
+        "curatedCollectionPath": null
+      },
+      "postman": {
+        "specName": "CRM - Pipeline Governance API Definition",
+        "specId": "991de13e-be5e-44cb-8171-70aa844fff3e",
+        "groupingCollection": null,
+        "groupingCollectionUid": null,
+        "apiFolderName": null,
+        "apiFolderId": null,
+        "versionFolderName": null,
+        "versionFolderId": null,
+        "bindingLevel": null,
+        "boundVersion": null,
+        "collectionPending": true
+      },
+      "createdBy": "phase2-sync",
+      "createdAt": "2026-11-20T16:05:11.312Z"
+    },
+    "CRM/Price Book Items Crm Reads Api": {
+      "group": "CRM",
+      "api": "Price Book Items Crm Reads Api",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
+      "repo": {
+        "rollout": "310989",
+        "otherRollouts": [],
+        "specPath": "PublicApiSpecs/CRM/Price Book Items Crm Reads Api/Rollouts/310989/2026-09/priceBookItemsCrmReadsApi.json",
+        "blobSha": "850e5e529ab1a99e72dacc3d38b47ac286447ffe",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Price%20Book%20Items%20Crm%20Reads%20Api/Rollouts/310989/2026-09/priceBookItemsCrmReadsApi.json",
+        "curatedCollectionPath": null
+      },
+      "postman": {
+        "specName": "CRM - Price Book Items Crm Reads Api API Definition",
+        "specId": "c0d3af9d-9ed1-4f1d-9d79-0d404bc13228",
+        "groupingCollection": null,
+        "groupingCollectionUid": null,
+        "apiFolderName": null,
+        "apiFolderId": null,
+        "versionFolderName": null,
+        "versionFolderId": null,
+        "bindingLevel": null,
+        "boundVersion": null,
+        "collectionPending": true
+      },
+      "createdBy": "phase2-sync",
+      "createdAt": "2026-11-20T16:05:11.602Z"
+    },
+    "CRM/Price Books Crm Reads Api": {
+      "group": "CRM",
+      "api": "Price Books Crm Reads Api",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
+      "repo": {
+        "rollout": "310989",
+        "otherRollouts": [],
+        "specPath": "PublicApiSpecs/CRM/Price Books Crm Reads Api/Rollouts/310989/2026-09/priceBooksCrmReadsApi.json",
+        "blobSha": "e11cbf05ca518b19e564c674623bb3832d0e7e81",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Price%20Books%20Crm%20Reads%20Api/Rollouts/310989/2026-09/priceBooksCrmReadsApi.json",
+        "curatedCollectionPath": null
+      },
+      "postman": {
+        "specName": "CRM - Price Books Crm Reads Api API Definition",
+        "specId": "ee930dcb-7b5b-49ae-b258-95d21061eee4",
+        "groupingCollection": null,
+        "groupingCollectionUid": null,
+        "apiFolderName": null,
+        "apiFolderId": null,
+        "versionFolderName": null,
+        "versionFolderId": null,
+        "bindingLevel": null,
+        "boundVersion": null,
+        "collectionPending": true
+      },
+      "createdBy": "phase2-sync",
+      "createdAt": "2026-11-20T16:05:11.870Z"
+    },
+    "CRM/Tasks Series": {
+      "group": "CRM",
+      "api": "Tasks Series",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
+      "repo": {
+        "rollout": "320937",
+        "otherRollouts": [],
+        "specPath": "PublicApiSpecs/CRM/Tasks Series/Rollouts/320937/2026-09/tasksSeries.json",
+        "blobSha": "2224650821c3ce5fa03a981e135a86de07bb6ef6",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/CRM/Tasks%20Series/Rollouts/320937/2026-09/tasksSeries.json",
+        "curatedCollectionPath": null
+      },
+      "postman": {
+        "specName": "CRM - Tasks Series API Definition",
+        "specId": "6a929ff3-a9db-45f6-b1d2-ae2da8118765",
+        "groupingCollection": null,
+        "groupingCollectionUid": null,
+        "apiFolderName": null,
+        "apiFolderId": null,
+        "versionFolderName": null,
+        "versionFolderId": null,
+        "bindingLevel": null,
+        "boundVersion": null,
+        "collectionPending": true
+      },
+      "createdBy": "phase2-sync",
+      "createdAt": "2026-11-20T16:05:12.121Z"
+    },
+    "Settings/Teams": {
+      "group": "Settings",
+      "api": "Teams",
+      "latestVersion": "2026-09",
+      "selectionReason": "released-date",
+      "repo": {
+        "rollout": "325899",
+        "otherRollouts": [],
+        "specPath": "PublicApiSpecs/Settings/Teams/Rollouts/325899/2026-09/teams.json",
+        "blobSha": "d6de726fc4a56ae7c63c21ee975d1050d2bc363d",
+        "githubUrl": "https://github.com/hubspotdev/HubSpot-public-api-spec-collection/blob/main/PublicApiSpecs/Settings/Teams/Rollouts/325899/2026-09/teams.json",
+        "curatedCollectionPath": null
+      },
+      "postman": {
+        "specName": "Settings - Teams API Definition",
+        "specId": "c7571933-f529-493d-8c1c-08369d5fbe27",
+        "groupingCollection": null,
+        "groupingCollectionUid": null,
+        "apiFolderName": null,
+        "apiFolderId": null,
+        "versionFolderName": null,
+        "versionFolderId": null,
+        "bindingLevel": null,
+        "boundVersion": null,
+        "collectionPending": true
+      },
+      "createdBy": "phase2-sync",
+      "createdAt": "2026-11-20T16:05:12.398Z"
     }
   },
   "skipped": [
@@ -2628,5 +3154,6 @@
     }
   ],
   "patchedAt": "2026-07-07T20:30:43.426Z",
-  "patchNote": "Manually linked 4 non-conventional collections (Auth/Oauth, Business Units, Communication Preferences/Subscriptions, Webhooks Journal) from collection-overrides.json without re-running the migration."
+  "patchNote": "Manually linked 4 non-conventional collections (Auth/Oauth, Business Units, Communication Preferences/Subscriptions, Webhooks Journal) from collection-overrides.json without re-running the migration.",
+  "updatedAt": "2026-11-20T16:05:12.398Z"
 }
