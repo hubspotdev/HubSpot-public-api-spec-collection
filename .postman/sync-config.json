@@ -1,5 +1,5 @@
 {
   "ignoreGroups": ["Test"],
   "ignoreApis": [],
-  "rollApiLevelFolders": false
+  "rollApiLevelFolders": true
 }
