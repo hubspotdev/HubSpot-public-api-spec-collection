@@ -3143,5 +3143,5 @@
   ],
   "patchedAt": "2026-07-07T20:30:43.426Z",
   "patchNote": "Manually linked 4 non-conventional collections (Auth/Oauth, Business Units, Communication Preferences/Subscriptions, Webhooks Journal) from collection-overrides.json without re-running the migration.",
-  "updatedAt": "2026-11-20T16:25:33.867Z"
+  "updatedAt": "2026-11-23T07:04:37.690Z"
 }
