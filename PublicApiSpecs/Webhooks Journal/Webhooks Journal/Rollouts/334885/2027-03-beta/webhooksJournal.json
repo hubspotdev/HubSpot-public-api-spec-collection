@@ -2182,7 +2182,7 @@
         "example" : null
       },
       "SubscriptionResponse" : {
-        "required" : [ "actions", "appId", "createdAt", "id", "objectTypeId", "subscriptionType", "updatedAt" ],
+        "required" : [ "actions", "appId", "createdAt", "id", "objectTypeId", "status", "subscriptionType", "updatedAt" ],
         "type" : "object",
         "properties" : {
           "actionOverrides" : {
@@ -2286,6 +2286,11 @@
               "type" : "string",
               "example" : null
             }
+          },
+          "status" : {
+            "type" : "string",
+            "example" : null,
+            "enum" : [ "ACTIVE", "SUBSCRIPTION_UPDATE_PENDING" ]
           },
           "subscriptionType" : {
             "type" : "string",

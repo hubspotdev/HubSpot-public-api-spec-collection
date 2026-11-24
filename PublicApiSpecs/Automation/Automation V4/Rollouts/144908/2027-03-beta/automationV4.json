@@ -63,7 +63,11 @@
         "security" : [ {
           "oauth2" : [ "automation" ]
         }, {
+          "oauth2" : [ "workflows.trigger" ]
+        }, {
           "oauth2" : [ "workflows.write" ]
+        }, {
+          "oauth2" : [ "workflows.publish" ]
         }, {
           "oauth2" : [ "workflows.delete" ]
         }, {
@@ -307,7 +311,11 @@
         "security" : [ {
           "oauth2" : [ "automation" ]
         }, {
+          "oauth2" : [ "workflows.trigger" ]
+        }, {
           "oauth2" : [ "workflows.write" ]
+        }, {
+          "oauth2" : [ "workflows.publish" ]
         }, {
           "oauth2" : [ "workflows.delete" ]
         }, {
@@ -545,7 +553,11 @@
         "security" : [ {
           "oauth2" : [ "automation" ]
         }, {
+          "oauth2" : [ "workflows.trigger" ]
+        }, {
           "oauth2" : [ "workflows.write" ]
+        }, {
+          "oauth2" : [ "workflows.publish" ]
         }, {
           "oauth2" : [ "workflows.delete" ]
         }, {
@@ -2694,6 +2706,21 @@
         "example" : null,
         "x-hubspot-sub-type-impl" : true
       },
+      "ApiObjectRequestOptions" : {
+        "required" : [ "propertyNames" ],
+        "type" : "object",
+        "properties" : {
+          "propertyNames" : {
+            "type" : "array",
+            "example" : null,
+            "items" : {
+              "type" : "string",
+              "example" : null
+            }
+          }
+        },
+        "example" : null
+      },
       "ApiPlatformFlow" : {
         "required" : [ "actions", "blockedDates", "createdAt", "crmObjectCreationStatus", "customProperties", "dataSources", "flowType", "id", "isEnabled", "nextAvailableActionId", "objectTypeId", "revisionId", "timeWindows", "type", "updatedAt" ],
         "type" : "object",
@@ -3306,6 +3333,9 @@
             },
             "description" : "Contains the fields associated with the single connection action.",
             "example" : null
+          },
+          "objectRequestOptions" : {
+            "$ref" : "#/components/schemas/ApiObjectRequestOptions"
           },
           "type" : {
             "type" : "string",
@@ -7883,8 +7913,9 @@
             "example" : null
           },
           "status" : {
-            "type" : "string",
+            "type" : "integer",
             "description" : "The HTTP status code associated with the error.",
+            "format" : "int32",
             "example" : null
           },
           "subCategory" : {
@@ -7926,7 +7957,9 @@
             "scopes" : {
               "automation" : "",
               "workflows.delete" : "",
+              "workflows.publish" : "",
               "workflows.read" : "",
+              "workflows.trigger" : "",
               "workflows.write" : ""
             }
           }
@@ -7940,7 +7973,15 @@
             "user" : [ "public", "private" ],
             "developer" : false
           },
+          "workflows.publish" : {
+            "user" : [ "public", "private" ],
+            "developer" : false
+          },
           "workflows.read" : {
+            "user" : [ "public", "private" ],
+            "developer" : false
+          },
+          "workflows.trigger" : {
             "user" : [ "public", "private" ],
             "developer" : false
           },

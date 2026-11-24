@@ -18,10 +18,6 @@
     "url" : "https://api.hubapi.com"
   } ],
   "tags" : [ {
-    "name" : "Basic"
-  }, {
-    "name" : "Batch"
-  }, {
     "name" : "Dashboards"
   }, {
     "name" : "Favorites"
@@ -31,6 +27,8 @@
     "name" : "Recurring Report Exports"
   }, {
     "name" : "Reports"
+  }, {
+    "name" : "Tags"
   } ],
   "paths" : {
     "/analytics/reporting/2027-03-beta/dashboards" : {
@@ -2829,8 +2827,67 @@
       }
     },
     "/analytics/reporting/2027-03-beta/tags" : {
+      "get" : {
+        "tags" : [ "Tags" ],
+        "summary" : "List tags",
+        "description" : "Lists the reporting tags available in the account.\n\nTags are returned sorted according to their display order, and then alphabetically by name as a tiebreaker (tags without an explicit display order are placed at the end of the results).",
+        "operationId" : "get-/analytics/reporting/2027-03-beta/tags_/analytics/reporting/2027-03-beta/tags",
+        "parameters" : [ {
+          "name" : "after",
+          "in" : "query",
+          "description" : "A cursor token for pagination. Use the value from the previous response's `paging.next.after` field.",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string",
+            "example" : null
+          }
+        }, {
+          "name" : "limit",
+          "in" : "query",
+          "description" : "The maximum number of results to display per page. Default 25, max 100.",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "integer",
+            "format" : "int32",
+            "example" : null
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/CollectionResponseWithTotalPublicTag"
+                },
+                "example" : null
+              }
+            }
+          },
+          "default" : {
+            "description" : "",
+            "$ref" : "#/components/responses/Error"
+          }
+        },
+        "security" : [ {
+          "oauth2" : [ "reporting.full.read" ]
+        }, {
+          "oauth2" : [ "reporting.full.admin" ]
+        }, {
+          "oauth2" : [ "crm.hubsql.execute" ]
+        } ],
+        "x-hubspot-user-level-auth" : {
+          "internalOnly" : false
+        }
+      },
       "post" : {
-        "tags" : [ "Basic" ],
+        "tags" : [ "Tags" ],
+        "summary" : "Create tag",
+        "description" : "Creates a new tag.\n\nAll tags in the account must have unique names (case-insensitive); attempting to create a tag using an existing tag's name will fail.",
         "operationId" : "post-/analytics/reporting/2027-03-beta/tags_/analytics/reporting/2027-03-beta/tags",
         "parameters" : [ ],
         "requestBody" : {
@@ -2871,7 +2928,9 @@
     },
     "/analytics/reporting/2027-03-beta/tags/associations/batch/create" : {
       "post" : {
-        "tags" : [ "Batch" ],
+        "tags" : [ "Tags" ],
+        "summary" : "Associate tags",
+        "description" : "Creates one or more tag associations between specified tags and reports or dashboards. Idempotent. The maximum batch size is 500.\n\nEach report and dashboard in the account can have up to 5 tags associated with it. If the request would cause that limit to be exceeded for any given object, all requested associations for that object are rejected (requested associations that already exist are still treated as successes).\n\nIf any of the requested items fail, the response code will be `207 Multi-Status` and the response will include details of individual failures.",
         "operationId" : "post-/analytics/reporting/2027-03-beta/tags/associations/batch/create_/analytics/reporting/2027-03-beta/tags/associations/batch/create",
         "parameters" : [ ],
         "requestBody" : {
@@ -2927,7 +2986,9 @@
     },
     "/analytics/reporting/2027-03-beta/tags/associations/batch/purge" : {
       "post" : {
-        "tags" : [ "Batch" ],
+        "tags" : [ "Tags" ],
+        "summary" : "Disassociate tags",
+        "description" : "Deletes one or more tag associations between the specified tags and reports or dashboards. Idempotent. The maximum batch size is 500.\n\nIf any of the requested items fail, the response code will be `207 Multi-Status` and the response will include details of individual failures.",
         "operationId" : "post-/analytics/reporting/2027-03-beta/tags/associations/batch/purge_/analytics/reporting/2027-03-beta/tags/associations/batch/purge",
         "parameters" : [ ],
         "requestBody" : {
@@ -2976,11 +3037,14 @@
     },
     "/analytics/reporting/2027-03-beta/tags/{tagId}" : {
       "delete" : {
-        "tags" : [ "Basic" ],
+        "tags" : [ "Tags" ],
+        "summary" : "Delete tag",
+        "description" : "Deletes an existing tag, disassociating it from all reports and dashboards to which it is currently applied. Idempotent.",
         "operationId" : "delete-/analytics/reporting/2027-03-beta/tags/{tagId}_/analytics/reporting/2027-03-beta/tags/{tagId}",
         "parameters" : [ {
           "name" : "tagId",
           "in" : "path",
+          "description" : "The ID of the tag to delete.",
           "required" : true,
           "style" : "simple",
           "explode" : false,
@@ -3008,11 +3072,14 @@
         }
       },
       "patch" : {
-        "tags" : [ "Basic" ],
+        "tags" : [ "Tags" ],
+        "summary" : "Update tag",
+        "description" : "Updates an existing tag.",
         "operationId" : "patch-/analytics/reporting/2027-03-beta/tags/{tagId}_/analytics/reporting/2027-03-beta/tags/{tagId}",
         "parameters" : [ {
           "name" : "tagId",
           "in" : "path",
+          "description" : "The ID of the tag to update.",
           "required" : true,
           "style" : "simple",
           "explode" : false,
@@ -3082,6 +3149,7 @@
         "properties" : {
           "inputs" : {
             "type" : "array",
+            "description" : "Array of tag association objects.",
             "example" : null,
             "items" : {
               "$ref" : "#/components/schemas/PublicTagAssociation"
@@ -3742,6 +3810,7 @@
         "properties" : {
           "completedAt" : {
             "type" : "string",
+            "description" : "The date and time when the batch operation was completed, in ISO 8601 format.",
             "format" : "date-time",
             "example" : null
           },
@@ -3751,15 +3820,18 @@
               "type" : "string",
               "example" : null
             },
+            "description" : "A map of link names to associated URIs, providing additional information related to the batch operation.",
             "example" : null
           },
           "requestedAt" : {
             "type" : "string",
+            "description" : "The date and time when the batch operation was requested, in ISO 8601 format.",
             "format" : "date-time",
             "example" : null
           },
           "results" : {
             "type" : "array",
+            "description" : "An array of tag association objects representing the successful results of the batch operation.",
             "example" : null,
             "items" : {
               "$ref" : "#/components/schemas/PublicTagAssociation"
@@ -3767,11 +3839,13 @@
           },
           "startedAt" : {
             "type" : "string",
+            "description" : "The date and time when the batch operation started, in ISO 8601 format.",
             "format" : "date-time",
             "example" : null
           },
           "status" : {
             "type" : "string",
+            "description" : "The current status of the batch operation. Valid values include 'PENDING', 'PROCESSING', 'CANCELED', and 'COMPLETE'.",
             "example" : null,
             "enum" : [ "CANCELED", "COMPLETE", "PENDING", "PROCESSING" ]
           }
@@ -3784,11 +3858,13 @@
         "properties" : {
           "completedAt" : {
             "type" : "string",
+            "description" : "The date and time when the batch operation was completed, in ISO 8601 format.",
             "format" : "date-time",
             "example" : null
           },
           "errors" : {
             "type" : "array",
+            "description" : "An array of error objects detailing any errors that occurred during the batch operation.",
             "example" : null,
             "items" : {
               "$ref" : "#/components/schemas/StandardError"
@@ -3800,20 +3876,24 @@
               "type" : "string",
               "example" : null
             },
+            "description" : "A map of link names to associated URIs, providing additional information related to the batch operation.",
             "example" : null
           },
           "numErrors" : {
             "type" : "integer",
+            "description" : "The number of errors encountered during the batch operation.",
             "format" : "int32",
             "example" : null
           },
           "requestedAt" : {
             "type" : "string",
+            "description" : "The date and time when the batch operation was requested, in ISO 8601 format.",
             "format" : "date-time",
             "example" : null
           },
           "results" : {
             "type" : "array",
+            "description" : "An array of tag association objects representing the successful results of the batch operation.",
             "example" : null,
             "items" : {
               "$ref" : "#/components/schemas/PublicTagAssociation"
@@ -3821,11 +3901,13 @@
           },
           "startedAt" : {
             "type" : "string",
+            "description" : "The date and time when the batch operation started, in ISO 8601 format.",
             "format" : "date-time",
             "example" : null
           },
           "status" : {
             "type" : "string",
+            "description" : "The current status of the batch operation. Valid values include 'PENDING', 'PROCESSING', 'CANCELED', and 'COMPLETE'.",
             "example" : null,
             "enum" : [ "CANCELED", "COMPLETE", "PENDING", "PROCESSING" ]
           }
@@ -3946,6 +4028,30 @@
           "total" : {
             "type" : "integer",
             "description" : "The total number of reports available.",
+            "format" : "int32",
+            "example" : null
+          }
+        },
+        "example" : null
+      },
+      "CollectionResponseWithTotalPublicTag" : {
+        "required" : [ "results", "total" ],
+        "type" : "object",
+        "properties" : {
+          "paging" : {
+            "$ref" : "#/components/schemas/Paging"
+          },
+          "results" : {
+            "type" : "array",
+            "description" : "An array of tag objects.",
+            "example" : null,
+            "items" : {
+              "$ref" : "#/components/schemas/PublicTag"
+            }
+          },
+          "total" : {
+            "type" : "integer",
+            "description" : "The total number of tags available.",
             "format" : "int32",
             "example" : null
           }
@@ -5085,6 +5191,7 @@
         "properties" : {
           "color" : {
             "type" : "string",
+            "description" : "The color to display the tag with. Possible values are:\n- `BLUE`\n- `PINK`\n- `PURPLE`\n- `GREEN`\n- `ORANGE`\n- `GRAY`\n- `BLACK`\n- `RED`\n- `YELLOW`",
             "example" : null,
             "enum" : [ "BLACK", "BLUE", "GRAY", "GREEN", "ORANGE", "PINK", "PURPLE", "RED", "YELLOW" ]
           },
@@ -5101,6 +5208,7 @@
           },
           "displayOrder" : {
             "type" : "integer",
+            "description" : "A number used to determine where in the overall ordering this tag should be sorted. Optional; tags without an explicit `displayOrder` will be last in the tags list.",
             "format" : "int32",
             "example" : null
           },
@@ -5134,15 +5242,18 @@
         "properties" : {
           "objectId" : {
             "type" : "string",
+            "description" : "The ID of the report or dashboard the tag is associated with.",
             "example" : null
           },
           "objectType" : {
             "type" : "string",
+            "description" : "The type of object the tag is associated with. Possible values are:\n- `DASHBOARD`\n- `REPORT`",
             "example" : null,
             "enum" : [ "DASHBOARD", "REPORT" ]
           },
           "tagId" : {
             "type" : "string",
+            "description" : "The ID of the tag associated with the report or dashboard.",
             "example" : null
           }
         },
@@ -5154,16 +5265,19 @@
         "properties" : {
           "color" : {
             "type" : "string",
+            "description" : "The color to display the tag with. Possible values are:\n- `BLUE`\n- `PINK`\n- `PURPLE`\n- `GREEN`\n- `ORANGE`\n- `GRAY`\n- `BLACK`\n- `RED`\n- `YELLOW`",
             "example" : null,
             "enum" : [ "BLACK", "BLUE", "GRAY", "GREEN", "ORANGE", "PINK", "PURPLE", "RED", "YELLOW" ]
           },
           "displayOrder" : {
             "type" : "integer",
+            "description" : "A number used to determine where in the overall ordering this tag should be sorted. Optional; tags without an explicit `displayOrder` will be last in the tags list.",
             "format" : "int32",
             "example" : null
           },
           "name" : {
             "type" : "string",
+            "description" : "The name of the tag.",
             "example" : null
           }
         },
@@ -5174,16 +5288,19 @@
         "properties" : {
           "color" : {
             "type" : "string",
+            "description" : "The new color to display the tag with. Possible values are:\n- `BLUE`\n- `PINK`\n- `PURPLE`\n- `GREEN`\n- `ORANGE`\n- `GRAY`\n- `BLACK`\n- `RED`\n- `YELLOW`\n\nOmit to leave unchanged.",
             "example" : null,
             "enum" : [ "BLACK", "BLUE", "GRAY", "GREEN", "ORANGE", "PINK", "PURPLE", "RED", "YELLOW" ]
           },
           "displayOrder" : {
             "type" : "object",
             "properties" : { },
+            "description" : "The new number to use to determine where in the overall ordering this tag should be sorted. Omit to leave unchanged, send `null` to clear; tags without an explicit `displayOrder` will be last in the tags list.",
             "example" : null
           },
           "name" : {
             "type" : "string",
+            "description" : "The new name to use for the tag. Omit to leave unchanged.",
             "example" : null
           }
         },
@@ -5239,8 +5356,9 @@
             "example" : null
           },
           "status" : {
-            "type" : "string",
+            "type" : "integer",
             "description" : "A string indicating the status of the error.",
+            "format" : "int32",
             "example" : null
           },
           "subCategory" : {
